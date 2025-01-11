@@ -21,8 +21,44 @@
       "title": "За гранью Коридора автобуса"
     },
     {
+      "id": "EventTitleText_9011",
+      "title": "Rooms Past the Backdoor"
+    },
+    {
+      "id": "STORY_901004",
+      "title": "Rooms Past the Backdoor"
+    },
+    {
       "id": "STORY_901005",
       "title": "Вальпургиева ночь"
+    },
+    {
+      "id": "EventTitleText_9012",
+      "title": "A Notable Change"
+    },
+    {
+      "id": "STORY_901201",
+      "title": "A Notable Change"
+    },
+    {
+      "id": "EventTitleText_9013",
+      "title": "The 2nd Walpurgis Night"
+    },
+    {
+      "id": "STORY_901301",
+      "title": "The Dawn of Green"
+    },
+    {
+      "id": "STORY_901302",
+      "title": "Ordeal"
+    },
+    {
+      "id": "EventTitleText_9014",
+      "title": "Back to the Bus."
+    },
+    {
+      "id": "STORY_901401",
+      "title": "Back to the Bus."
     },
     {
       "id": "STORY_910712",
@@ -59,6 +95,30 @@
     {
       "id": "STORY_901701",
       "title": "Знакомая тревога"
+    },
+    {
+      "id": "EventTitleText_9018",
+      "title": "The 4th Walpurgis Night"
+    },
+    {
+      "id": "STORY_901801",
+      "title": "Ordeal of Violet"
+    },
+    {
+      "id": "STORY_901802",
+      "title": "Grant Us Love"
+    },
+    {
+      "id": "EventTitleText_9019",
+      "title": "The 5th Walpurgis Night"
+    },
+    {
+      "id": "STORY_901901",
+      "title": "The Church of Gears"
+    },
+    {
+      "id": "STORY_901902",
+      "title": "The Night's Scenario"
     }
   ]
 }

@@ -4,23 +4,14 @@
       "id": "mission_ui_condition_tags_103001001",
       "content": "Пройдите {0} этап(ов) после 1-ой Песни"
     },
-
-
-
     {
       "id": "mission_ui_condition_tags_103002001",
       "content": "Пройдите {0} этап(ов) Светодобычи опыта"
     },
-
-
-
     {
       "id": "mission_ui_condition_tags_103003001",
       "content": "Пройдите {0} этап(ов) Светодобычи звеньев"
     },
-
-
-
     {
       "id": "mission_ui_condition_tags_103004001",
       "content": "Пройдите {0} этап(ов) Зеркального подземелья (Столкновения)"
@@ -37,8 +28,6 @@
       "id": "mission_ui_condition_tags_103004004",
       "content": "Пройдите обычное или усложнённое Зеркальное подземелье {0} раз(а)\n(Включая босса последнего этажа)"
     },
-
-
     {
       "id": "mission_ui_condition_tags_103005001",
       "content": "Поднимите {0} идентичности до {1}-го уровня"
@@ -55,8 +44,6 @@
       "id": "mission_ui_condition_tags_103005004",
       "content": "Усильте {0} ЭГО до {1}-го уровня Связки"
     },
-
-
     {
       "id": "mission_ui_condition_tags_103006001",
       "content": "Выполните {0} ежедневных миссий"
@@ -65,13 +52,10 @@
       "id": "mission_ui_condition_tags_103006002",
       "content": "Выполните {0} недельных миссий"
     },
-
-
     {
       "id": "mission_ui_condition_tags_103006002",
       "content": "Выполните {0} недельных миссий"
     },
-
     {
       "id": "mission_condition_ui_group_2",
       "content": "Сюжет"

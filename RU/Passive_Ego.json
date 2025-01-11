@@ -391,6 +391,64 @@
       "id": 2080711,
       "name": "Приём незваных гостей",
       "desc": "Сила в поединке +1 против <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостей</link></u></color> и целей с эффектами, меняющими тип срыва.\nПри ударе этой цели Измаил восстанавливает 5 СД союзнику с наименьшей Силой духа. (Единожды за ход)"
+    },
+    {
+      "id": 2020711,
+      "name": "Sprawling Lasso",
+      "desc": "After Attack, if the target is Staggered or defeated, inflict +1 [Burst] Count against 2 random enemies (once per turn; cannot stack; in Focused Encounters, against 2 random Parts)",
+      "summary": "After Attack, if the target is Staggered or defeated, inflict +1 [Burst] Count against 2 random enemies"
+    },
+    {
+      "id": 2060711,
+      "name": "Time to Hunt",
+      "desc": "If an enemy or an ally is killed due to [Burst] or [Laceration] damage, inflict 2 [Snare] against a random enemy, and gain 1 [Agility] next turn (once per turn)"
+    },
+    {
+      "id": 2030711,
+      "name": "Spiring Crimson Blossom",
+      "desc": "Every time 10+ [Laceration] damage occurs, heal 1 SP on self (10 per turn)"
+    },
+    {
+      "id": 2090711,
+      "name": "Iron Stake against the Heart",
+      "desc": "When inflicting [Laceration] or 'Unique Bleed' against an enemy with Base Attack Skills, inflict 1 [DefenseDown] (once per turn)\n- If the target has [Laceration] or 'Unique Bleed', inflict additional 2 [Laceration] (once per turn)\n\nIf an ally, including this unit, takes direct HP damage from the enemy, inflict 1 [Curse] against the target enemy (2 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 2100711,
+      "name": "Grimy Hide",
+      "desc": "Combat Start: if this unit has a negative effect, gain 1 [ParryingResultUp] and 1 [Endurance]\n- Gain 1 [Protection] for every 3 negative effect on self (max 2)"
+    },
+    {
+      "id": 2050711,
+      "name": "Bloodthirsty Banquet",
+      "desc": "When this unit deals or takes [Laceration] damage, heal HP equal to the [Laceration] damage (max 10 per turn)\n- When activating a Skill/Coin effect that inflicts [Laceration], if the target has [RoseWedge], inflict 1 [Laceration] against the target. (2 times per turn)"
+    },
+    {
+      "id": 2010711,
+      "name": "Next",
+      "desc": "After Attack: if the target is killed, gain +2 [Breath] Count (2 times per turn)"
+    },
+    {
+      "id": 2070811,
+      "name": "Broken Bell",
+      "desc": "Inflict [Vulnerable] this turn on enemies who were hit by [VibrationExplosion] from Skill, Coin, or Passive effects.\n- Does not stack with E.G.O Gifts that inflict [Vulnerable] upon triggering Tremor Burst. (If the said E.G.O Gifts have been enhanced, subtract this effect's value from the final value before inflicting it.)",
+      "summary": "Inflict 1 [Vulnerable] upon triggering [VibrationExplosion] "
+    },
+    {
+      "id": 2080811,
+      "name": "A Gaze in the Shadows",
+      "desc": "Allies gain +1 more [Vibration] Count from Skill or Coin effects (2 times per turn)\n- If the ally's target is in Staggered, Low Morale, or Panic states, gain +2 more instead\n- Effect does not stack with E.G.O Gifts of an identical effect."
+    },
+    {
+      "id": 2120811,
+      "name": "Insomniac Night",
+      "desc": "Combat Start: against all enemies, inflict 1 [AttackDown] or 1 [DefenseDown] to all enemies (# of enemies in Staggered, Low Morale, or Panic states) times. (2 times per turn)\n- Effect does not stack with E.G.O Gifts with the same effect."
+    },
+    {
+      "id": 2110811,
+      "name": "Seven Bullets",
+      "desc": "- On Hit with Base Attack Skills: inflict ([FreischutzShotCount] / 3) [Combustion] (3 times per turn)\n- For Lobotomy E.G.O::Magic Bullet[TabExplain] Outis Identity, inflict ([FreischutzShotCount]) [Combustion] instead (3 times per turn)\n- If the target has 30+ [Combustion], inflict 1 [DarkFlame] instead of the above effect (2 times per turn)"
     }
   ]
 }

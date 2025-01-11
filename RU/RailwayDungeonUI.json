@@ -125,10 +125,6 @@
       "content": "Желаете ли вы досрочно завершить поездку по Ж/д преломления?"
     },
     {
-      "id": "railway_dungeon_before_enter_past_node_battle",
-      "content": "Если вы заново начнёте этот этап, информация о последующих этапах сотрётся.\n\nВы точно желаете вернуться на ту станцию?"
-    },
-    {
       "id": "railway_dungeon_finished_description",
       "content": "※ Если две поездки будут иметь одинаковое количество ходов,\nперезапишется версия с большим кол-вом смертей.\nЕсли количество смертей также равно, переезапишется более старая версия."
     },
@@ -159,6 +155,22 @@
     {
       "id": "railway_dungeon_operation_closed",
       "content": "Путь закрыт"
+    },
+    {
+      "id": "final_clear_accumulated_round",
+      "content": "Final Cycle Count"
+    },
+    {
+      "id": "railway_clear_date",
+      "content": "Record Date"
+    },
+    {
+      "id": "railway_clear_turn_count",
+      "content": "Total Clear Turn Count"
+    },
+    {
+      "id": "railway_clear_turn_count_by_stage",
+      "content": "Clear Turn Count by Station"
     }
   ]
 }

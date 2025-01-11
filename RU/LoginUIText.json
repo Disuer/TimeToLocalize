@@ -173,8 +173,36 @@
       "content": "Запрос обработан.\nПожалуйста, перезапустите игру для синхронизации."
     },
     {
+      "id": "login_scene_mini_story_warning_spoiler_format",
+      "content": "This story takes place after the Main Story Chapter {0}. Would you like to view the story anyway?"
+    },
+    {
+      "id": "login_scene_mini_story_unlock_code_105",
+      "content": "5"
+    },
+    {
+      "id": "login_scene_mini_story_unlock_code_9105",
+      "content": "5.5"
+    },
+    {
+      "id": "switch_clearcatalog",
+      "content": "Delete Catalogue"
+    },
+    {
+      "id": "panel_clearcatalog",
+      "content": "Delete catalogue?"
+    },
+    {
       "id": "serverstate_error_thirdparty_api",
       "content": "Возникла ошибка при попытке связи с внешним сервером, повторите попытку позже."
+    },
+    {
+      "id": "servererror_invalid_purchasing_package",
+      "content": "Transaction failed."
+    },
+    {
+      "id": "forcequit_cache_initialize_fail",
+      "content": "Game Client failed to launch properly.\nPlease confirm your network status and try again.\nInquiries: limbussupport+bug@projmoon.com"
     }
   ]
 }

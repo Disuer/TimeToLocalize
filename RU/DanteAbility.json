@@ -4,6 +4,11 @@
       "id": 90101,
       "desc": "- Все участники боя сбрасывают цели.\n- Эффекты, активирующиеся в начале хода, не обновляются.",
       "rawDesc": "Скорость всех противников урезана на половину."
+    },
+    {
+      "id": 80101,
+      "desc": "- Resets any slotted E.G.O Skills for all characters, and targeting for all Skills will be reset.",
+      "rawDesc": "Slot in a single E.G.O Skill without consuming any E.G.O resources."
     }
   ]
 }

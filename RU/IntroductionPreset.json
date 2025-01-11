@@ -362,11 +362,11 @@
     },
     {
       "id": "introduce_sentence_46",
-      "content": "{0} should be okay, I hope?.."
+      "content": "{0} should be okay, I hope…?"
     },
     {
       "id": "introduce_word_47",
-      "content": "Memory"
+      "content": "Open Alley"
     },
     {
       "id": "introduce_sentence_47",
@@ -379,6 +379,1038 @@
     {
       "id": "introduce_sentence_48",
       "content": "To bound over to the next {0}…"
+    },
+    {
+      "id": "introduce_word_49",
+      "content": "Workshop"
+    },
+    {
+      "id": "introduce_sentence_49",
+      "content": "…Yes, this is {0} on the phone. Please speak."
+    },
+    {
+      "id": "introduce_word_50",
+      "content": "All In"
+    },
+    {
+      "id": "introduce_sentence_50",
+      "content": "Alright... I'm {0}~ Come at me if you can!"
+    },
+    {
+      "id": "introduce_word_51",
+      "content": "This Way"
+    },
+    {
+      "id": "introduce_sentence_51",
+      "content": "Come on… {0}!"
+    },
+    {
+      "id": "introduce_word_52",
+      "content": "Bullring"
+    },
+    {
+      "id": "introduce_sentence_52",
+      "content": "The best {0} you could ask for a stampede."
+    },
+    {
+      "id": "introduce_word_53",
+      "content": "Colleagues"
+    },
+    {
+      "id": "introduce_sentence_53",
+      "content": "I have no {0} left now."
+    },
+    {
+      "id": "introduce_word_54",
+      "content": "Creamer"
+    },
+    {
+      "id": "introduce_sentence_54",
+      "content": "No {0}, huh? You really care..."
+    },
+    {
+      "id": "introduce_word_55",
+      "content": "Discharge"
+    },
+    {
+      "id": "introduce_sentence_55",
+      "content": "Time to {0}."
+    },
+    {
+      "id": "introduce_word_56",
+      "content": "Attention"
+    },
+    {
+      "id": "introduce_sentence_56",
+      "content": "I don't need... any pointless {0}!"
+    },
+    {
+      "id": "introduce_word_57",
+      "content": "Eyes"
+    },
+    {
+      "id": "introduce_sentence_57",
+      "content": "Your {0} will be in the dark."
+    },
+    {
+      "id": "introduce_word_58",
+      "content": "Umbrella"
+    },
+    {
+      "id": "introduce_sentence_58",
+      "content": "I worry that it may leak through the {0}."
+    },
+    {
+      "id": "introduce_word_59",
+      "content": "Scent"
+    },
+    {
+      "id": "introduce_sentence_59",
+      "content": "That {0} seems quite attractive to me."
+    },
+    {
+      "id": "introduce_word_60",
+      "content": "Fairy Wine"
+    },
+    {
+      "id": "introduce_sentence_60",
+      "content": "Mmm... A glass of {0}..."
+    },
+    {
+      "id": "introduce_word_61",
+      "content": "Deployment"
+    },
+    {
+      "id": "introduce_sentence_61",
+      "content": "Ahh~ You're finally ordering my {0}~"
+    },
+    {
+      "id": "introduce_word_62",
+      "content": "Talisman"
+    },
+    {
+      "id": "introduce_sentence_62",
+      "content": "Must attach the {0}..."
+    },
+    {
+      "id": "introduce_word_63",
+      "content": "Spider"
+    },
+    {
+      "id": "introduce_sentence_63",
+      "content": "The {0}s will like this..."
+    },
+    {
+      "id": "introduce_word_64",
+      "content": "Many Eyes"
+    },
+    {
+      "id": "introduce_sentence_64",
+      "content": "The {0} opened."
+    },
+    {
+      "id": "introduce_word_65",
+      "content": "Beef Noodles"
+    },
+    {
+      "id": "introduce_sentence_65",
+      "content": "Wanna have some {0} on the way back?"
+    },
+    {
+      "id": "introduce_word_66",
+      "content": "Rhino Team"
+    },
+    {
+      "id": "introduce_sentence_66",
+      "content": "{0}, charging ahead."
+    },
+    {
+      "id": "introduce_word_67",
+      "content": "Stealth Mission"
+    },
+    {
+      "id": "introduce_sentence_67",
+      "content": "Shh, I'm in the middle of a {0}."
+    },
+    {
+      "id": "introduce_word_68",
+      "content": "Childish"
+    },
+    {
+      "id": "introduce_sentence_68",
+      "content": "What say you, is it still a {0}?"
+    },
+    {
+      "id": "introduce_word_69",
+      "content": "Strugglin'"
+    },
+    {
+      "id": "introduce_sentence_69",
+      "content": "Sit still... Quit {0}!"
+    },
+    {
+      "id": "introduce_word_70",
+      "content": "Welding"
+    },
+    {
+      "id": "introduce_sentence_70",
+      "content": "Right... Now let's get to {0}..."
+    },
+    {
+      "id": "introduce_word_71",
+      "content": "Transformation"
+    },
+    {
+      "id": "introduce_sentence_71",
+      "content": "Tadaa~ {0} complete!\n"
+    },
+    {
+      "id": "introduce_word_72",
+      "content": "Relax"
+    },
+    {
+      "id": "introduce_sentence_72",
+      "content": "Go on, open wide. {0} and cram this drink down your throats, heheh."
+    },
+    {
+      "id": "introduce_word_73",
+      "content": "Some Old Guy"
+    },
+    {
+      "id": "introduce_sentence_73",
+      "content": "{0}? Come on…"
+    },
+    {
+      "id": "introduce_word_74",
+      "content": "Observation"
+    },
+    {
+      "id": "introduce_sentence_74",
+      "content": "I am not some {0} target…"
+    },
+    {
+      "id": "introduce_word_75",
+      "content": "Training"
+    },
+    {
+      "id": "introduce_sentence_75",
+      "content": "Absurd. Can't believe I'm relegated to {0}."
+    },
+    {
+      "id": "introduce_word_76",
+      "content": "Those WARP Trains"
+    },
+    {
+      "id": "introduce_sentence_76",
+      "content": "{0} tend to be rather cramped, don't you think?"
+    },
+    {
+      "id": "introduce_word_77",
+      "content": "Black Tea"
+    },
+    {
+      "id": "introduce_sentence_77",
+      "content": "{0} will take your orders."
+    },
+    {
+      "id": "introduce_word_78",
+      "content": "Case"
+    },
+    {
+      "id": "introduce_sentence_78",
+      "content": "Let's go solve this {0}, yeah?"
+    },
+    {
+      "id": "introduce_word_79",
+      "content": "Ourselves"
+    },
+    {
+      "id": "introduce_sentence_79",
+      "content": "Alas, it appears that we must involve {0} in this matter."
+    },
+    {
+      "id": "introduce_word_80",
+      "content": "Water"
+    },
+    {
+      "id": "introduce_sentence_80",
+      "content": "{0}... I need some {0}..."
+    },
+    {
+      "id": "introduce_word_81",
+      "content": "Pain"
+    },
+    {
+      "id": "introduce_sentence_81",
+      "content": "No knowledge is earned without {0}... or whatever, blah blah..."
+    },
+    {
+      "id": "introduce_word_82",
+      "content": "Woods"
+    },
+    {
+      "id": "introduce_sentence_82",
+      "content": "Should've watched your steps in the {0}...!"
+    },
+    {
+      "id": "introduce_word_83",
+      "content": "Samsara"
+    },
+    {
+      "id": "introduce_sentence_83",
+      "content": "The wheel of {0} turns once."
+    },
+    {
+      "id": "introduce_word_84",
+      "content": "Control Team"
+    },
+    {
+      "id": "introduce_sentence_84",
+      "content": "Currently... Moving to {0} Department."
+    },
+    {
+      "id": "introduce_word_85",
+      "content": "Hook Office"
+    },
+    {
+      "id": "introduce_sentence_85",
+      "content": "Hm... I have a feeling that {0} won't last long."
+    },
+    {
+      "id": "introduce_word_86",
+      "content": "Violence"
+    },
+    {
+      "id": "introduce_sentence_86",
+      "content": "This straight-jacket... isn't nearly enough to hold my {0} back."
+    },
+    {
+      "id": "introduce_word_87",
+      "content": "Labor"
+    },
+    {
+      "id": "introduce_sentence_87",
+      "content": "... The existence of this {0} is no different from that of mine."
+    },
+    {
+      "id": "introduce_word_88",
+      "content": "Guest"
+    },
+    {
+      "id": "introduce_sentence_88",
+      "content": "Now, lookee here~ My future {0}~"
+    },
+    {
+      "id": "introduce_word_89",
+      "content": "Work"
+    },
+    {
+      "id": "introduce_sentence_89",
+      "content": "I {0} for fun."
+    },
+    {
+      "id": "introduce_word_90",
+      "content": "ICEEE-CRRREAM"
+    },
+    {
+      "id": "introduce_sentence_90",
+      "content": "I! WANT! TO! EAT! {0}!"
+    },
+    {
+      "id": "introduce_word_91",
+      "content": "Vengeance"
+    },
+    {
+      "id": "introduce_sentence_91",
+      "content": "Only by your death shall this {0} be fulfilled."
+    },
+    {
+      "id": "introduce_word_92",
+      "content": "The Truth"
+    },
+    {
+      "id": "introduce_sentence_92",
+      "content": "{0} is(are) right before me..."
+    },
+    {
+      "id": "introduce_word_93",
+      "content": "Filth"
+    },
+    {
+      "id": "introduce_sentence_93",
+      "content": "{0} nest(s) inside me... so that they may be reborn as something useful."
+    },
+    {
+      "id": "introduce_word_94",
+      "content": "Ruin"
+    },
+    {
+      "id": "introduce_sentence_94",
+      "content": "Your {0} is written... right here!"
+    },
+    {
+      "id": "introduce_word_95",
+      "content": "Pearl"
+    },
+    {
+      "id": "introduce_sentence_95",
+      "content": "Not even worth turning(it) into a {0}!"
+    },
+    {
+      "id": "introduce_word_96",
+      "content": "The Lights"
+    },
+    {
+      "id": "introduce_sentence_96",
+      "content": "All hands, full speed toward where {0} flicker(s)."
+    },
+    {
+      "id": "introduce_word_97",
+      "content": "Waves"
+    },
+    {
+      "id": "introduce_sentence_97",
+      "content": "I am the only one who moves in these {0}."
+    },
+    {
+      "id": "introduce_word_98",
+      "content": "Rope"
+    },
+    {
+      "id": "introduce_sentence_98",
+      "content": "{0}. Knot tight."
+    },
+    {
+      "id": "introduce_word_99",
+      "content": "Voyage"
+    },
+    {
+      "id": "introduce_sentence_99",
+      "content": "\"… Once this {0} is over.\""
+    },
+    {
+      "id": "introduce_word_100",
+      "content": "Executed"
+    },
+    {
+      "id": "introduce_sentence_100",
+      "content": "All shall be {0}, as it is written."
+    },
+    {
+      "id": "introduce_word_101",
+      "content": "Blade"
+    },
+    {
+      "id": "introduce_sentence_101",
+      "content": "Focus... on the tip of my {0}..."
+    },
+    {
+      "id": "introduce_word_102",
+      "content": "Opponent"
+    },
+    {
+      "id": "introduce_sentence_102",
+      "content": "Step forth, my {0}!"
+    },
+    {
+      "id": "introduce_word_103",
+      "content": "Gift"
+    },
+    {
+      "id": "introduce_sentence_103",
+      "content": "Hah, you'll make a fine {0}!"
+    },
+    {
+      "id": "introduce_word_104",
+      "content": "Wrath"
+    },
+    {
+      "id": "introduce_sentence_104",
+      "content": "I'll stuff your futile {0} in this gift sack... and hurl it right back at your face."
+    },
+    {
+      "id": "introduce_word_105",
+      "content": "Contract"
+    },
+    {
+      "id": "introduce_sentence_105",
+      "content": "Fine. I accept your {0}."
+    },
+    {
+      "id": "introduce_word_106",
+      "content": "Journaling"
+    },
+    {
+      "id": "introduce_sentence_106",
+      "content": "Thus doth my daily {0} come to an end!"
+    },
+    {
+      "id": "introduce_word_107",
+      "content": "Key"
+    },
+    {
+      "id": "introduce_sentence_107",
+      "content": "Looking for a {0}?"
+    },
+    {
+      "id": "introduce_word_108",
+      "content": "Books"
+    },
+    {
+      "id": "introduce_sentence_108",
+      "content": "As I have read in my {0}."
+    },
+    {
+      "id": "introduce_word_109",
+      "content": "Whale"
+    },
+    {
+      "id": "introduce_sentence_109",
+      "content": "Once again, the fault lies with {0}! All of it!"
+    },
+    {
+      "id": "introduce_word_110",
+      "content": "Rock"
+    },
+    {
+      "id": "introduce_sentence_110",
+      "content": "I wish for this {0} to smite thee true and willing!"
+    },
+    {
+      "id": "introduce_word_111",
+      "content": "Unsolicited Advice"
+    },
+    {
+      "id": "introduce_sentence_111",
+      "content": "I will not accept any {0}."
+    },
+    {
+      "id": "introduce_word_112",
+      "content": "Flowers"
+    },
+    {
+      "id": "introduce_sentence_112",
+      "content": "Let the {0} bloom."
+    },
+    {
+      "id": "introduce_word_113",
+      "content": "Stroll"
+    },
+    {
+      "id": "introduce_sentence_113",
+      "content": "Wouldst thou mind if I should go on a little {0} to investigate?"
+    },
+    {
+      "id": "introduce_word_114",
+      "content": "Liquor"
+    },
+    {
+      "id": "introduce_sentence_114",
+      "content": "C'mon, pour me some {0} already..."
+    },
+    {
+      "id": "introduce_word_115",
+      "content": "Resist"
+    },
+    {
+      "id": "introduce_sentence_115",
+      "content": "Stop {0}-ing and just accept it."
+    },
+    {
+      "id": "introduce_word_116",
+      "content": "Fire"
+    },
+    {
+      "id": "introduce_sentence_116",
+      "content": "Hm. What, need some {0}?"
+    },
+    {
+      "id": "introduce_word_117",
+      "content": "Brambles"
+    },
+    {
+      "id": "introduce_sentence_117",
+      "content": "Don't try to untangle these {0}."
+    },
+    {
+      "id": "introduce_word_118",
+      "content": "Obstacle"
+    },
+    {
+      "id": "introduce_sentence_118",
+      "content": "Now that's one less {0} in our way."
+    },
+    {
+      "id": "introduce_word_119",
+      "content": "Luncheon"
+    },
+    {
+      "id": "introduce_sentence_119",
+      "content": "I shall return before the next {0}."
+    },
+    {
+      "id": "introduce_word_120",
+      "content": "Time"
+    },
+    {
+      "id": "introduce_sentence_120",
+      "content": "I will take what surplus {0} they have."
+    },
+    {
+      "id": "introduce_word_121",
+      "content": "Nightmare"
+    },
+    {
+      "id": "introduce_sentence_121",
+      "content": "Another damned {0}…"
+    },
+    {
+      "id": "introduce_word_122",
+      "content": "Hunt"
+    },
+    {
+      "id": "introduce_sentence_122",
+      "content": "Preparing for the {0} as per our Master's orders."
+    },
+    {
+      "id": "introduce_word_123",
+      "content": "Interloper"
+    },
+    {
+      "id": "introduce_sentence_123",
+      "content": "Leave at once, {0}! Leave this place...!"
+    },
+    {
+      "id": "introduce_word_124",
+      "content": "Manor"
+    },
+    {
+      "id": "introduce_sentence_124",
+      "content": "Allow me... to introduce you to this {0}..."
+    },
+    {
+      "id": "introduce_word_125",
+      "content": "Spark"
+    },
+    {
+      "id": "introduce_sentence_125",
+      "content": "What color do thine eyes behold in this {0}?!"
+    },
+    {
+      "id": "introduce_word_126",
+      "content": "Electricity"
+    },
+    {
+      "id": "introduce_sentence_126",
+      "content": "This {0} is all I have left... I can't...!"
+    },
+    {
+      "id": "introduce_word_127",
+      "content": "Authority"
+    },
+    {
+      "id": "introduce_sentence_127",
+      "content": "You dare... challenge my {0}?!"
+    },
+    {
+      "id": "introduce_word_128",
+      "content": "Throne"
+    },
+    {
+      "id": "introduce_sentence_128",
+      "content": "I am bound to reign alone atop this solitary {0}..."
+    },
+    {
+      "id": "introduce_word_129",
+      "content": "Foolish Master"
+    },
+    {
+      "id": "introduce_sentence_129",
+      "content": "Ready, as per that {0}'s orders."
+    },
+    {
+      "id": "introduce_word_130",
+      "content": "Butler"
+    },
+    {
+      "id": "introduce_sentence_130",
+      "content": "But of course. I am a competent {0}."
+    },
+    {
+      "id": "introduce_word_131",
+      "content": "Sorrow"
+    },
+    {
+      "id": "introduce_sentence_131",
+      "content": "Then... I choose to rise with this {0} instead."
+    },
+    {
+      "id": "introduce_word_132",
+      "content": "Ankle"
+    },
+    {
+      "id": "introduce_sentence_132",
+      "content": "So once I chop off your {0}...!"
+    },
+    {
+      "id": "introduce_word_133",
+      "content": "Meat"
+    },
+    {
+      "id": "introduce_sentence_133",
+      "content": "Scarred {0} isn't... tasty."
+    },
+    {
+      "id": "introduce_word_134",
+      "content": "Task"
+    },
+    {
+      "id": "introduce_sentence_134",
+      "content": "None of us are going to sleep until we deal with this {0}."
+    },
+    {
+      "id": "introduce_word_135",
+      "content": "Inspiration"
+    },
+    {
+      "id": "introduce_sentence_135",
+      "content": "Will you rekindle the {0} within me anew?"
+    },
+    {
+      "id": "introduce_word_136",
+      "content": "Tear"
+    },
+    {
+      "id": "introduce_sentence_136",
+      "content": "If only I could gather all the sorrow, all the {0} together, and cry in their stead..."
+    },
+    {
+      "id": "introduce_word_137",
+      "content": "Heart"
+    },
+    {
+      "id": "introduce_sentence_137",
+      "content": "A {0} shaken by sorrow bursts... like this."
+    },
+    {
+      "id": "introduce_word_138",
+      "content": "Answer"
+    },
+    {
+      "id": "introduce_sentence_138",
+      "content": "The {0} always reveals itself through this lens~"
+    },
+    {
+      "id": "introduce_word_139",
+      "content": "Screw"
+    },
+    {
+      "id": "introduce_sentence_139",
+      "content": "Looks like you've got a {0} loose yourself."
+    },
+    {
+      "id": "introduce_word_140",
+      "content": "Cease"
+    },
+    {
+      "id": "introduce_sentence_140",
+      "content": "Thus. You {0} to move. Trapped in the stopped time. For eternity."
+    },
+    {
+      "id": "introduce_word_141",
+      "content": "Watch"
+    },
+    {
+      "id": "introduce_sentence_141",
+      "content": "T Corp. Employment means that thou shalt be bestowed with this {0}!"
+    },
+    {
+      "id": "introduce_word_142",
+      "content": "Color"
+    },
+    {
+      "id": "introduce_sentence_142",
+      "content": "I wish I'd never seen {0} growing up..."
+    },
+    {
+      "id": "introduce_word_143",
+      "content": "Fist"
+    },
+    {
+      "id": "introduce_sentence_143",
+      "content": "Let my {0} be the conduit through which I attain knowledge."
+    },
+    {
+      "id": "introduce_word_144",
+      "content": "Squalidity"
+    },
+    {
+      "id": "introduce_sentence_144",
+      "content": "Scatter. Every gaze shall be drawn to this {0}."
+    },
+    {
+      "id": "introduce_word_145",
+      "content": "Cleanup"
+    },
+    {
+      "id": "introduce_sentence_145",
+      "content": "The {0} ended way ahead of schedule."
+    },
+    {
+      "id": "introduce_word_146",
+      "content": "Memory"
+    },
+    {
+      "id": "introduce_sentence_146",
+      "content": "Until echoes of gunshots and plumes of smoke bury my every {0}...!"
+    },
+    {
+      "id": "introduce_word_147",
+      "content": "Plan"
+    },
+    {
+      "id": "introduce_sentence_147",
+      "content": "While there are numerous deficiencies to this {0}, it will be honed into perfection."
+    },
+    {
+      "id": "introduce_word_148",
+      "content": "Prosthetic Body"
+    },
+    {
+      "id": "introduce_sentence_148",
+      "content": "Somethin' about how having a {0} helps dull the fear in combat, I think."
+    },
+    {
+      "id": "introduce_word_149",
+      "content": "Wandering"
+    },
+    {
+      "id": "introduce_sentence_149",
+      "content": "Do not avert your eyes, lest you be ensnared in an eternal {0}."
+    },
+    {
+      "id": "introduce_word_150",
+      "content": "Dullahan"
+    },
+    {
+      "id": "introduce_sentence_150",
+      "content": "Ride to your demise, O {0}!"
+    },
+    {
+      "id": "introduce_word_151",
+      "content": "Instinct"
+    },
+    {
+      "id": "introduce_sentence_151",
+      "content": "Hmph. It's nothing more than the curse of {0}."
+    },
+    {
+      "id": "introduce_word_152",
+      "content": "Condolences"
+    },
+    {
+      "id": "introduce_sentence_152",
+      "content": "There is no need for showy, purple prose in expressing {0}."
+    },
+    {
+      "id": "introduce_word_153",
+      "content": "Faith"
+    },
+    {
+      "id": "introduce_sentence_153",
+      "content": "That {0} is just a hollow wish, isn't it...?"
+    },
+    {
+      "id": "introduce_word_154",
+      "content": "Trunk"
+    },
+    {
+      "id": "introduce_sentence_154",
+      "content": "Ah... I'll be... just another {0} recovery mission, huh..."
+    },
+    {
+      "id": "introduce_word_155",
+      "content": "Cleaning"
+    },
+    {
+      "id": "introduce_sentence_155",
+      "content": "There's no end to this {0}..."
+    },
+    {
+      "id": "introduce_word_156",
+      "content": "Zwei"
+    },
+    {
+      "id": "introduce_sentence_156",
+      "content": "I guess this mistake will cost {0} its honor..."
+    },
+    {
+      "id": "introduce_word_157",
+      "content": "Viewers"
+    },
+    {
+      "id": "introduce_sentence_157",
+      "content": "Is there anyone among my {0}(s) who knows the answer...?"
+    },
+    {
+      "id": "introduce_word_158",
+      "content": "Safety"
+    },
+    {
+      "id": "introduce_sentence_158",
+      "content": "I don't think there's anything wrong with wishing {0} for everyone."
+    },
+    {
+      "id": "introduce_word_159",
+      "content": "Mask"
+    },
+    {
+      "id": "introduce_sentence_159",
+      "content": "Feasting my eyes on my {0}(s) in the night streets does wonders for the fatigue."
+    },
+    {
+      "id": "introduce_word_160",
+      "content": "Skill"
+    },
+    {
+      "id": "introduce_sentence_160",
+      "content": "Don't bother coming along if you don't have the {0}(s)."
+    },
+    {
+      "id": "introduce_word_161",
+      "content": "Apple"
+    },
+    {
+      "id": "introduce_sentence_161",
+      "content": "Where did you hide (the) {0}?!"
+    },
+    {
+      "id": "introduce_word_162",
+      "content": "Place"
+    },
+    {
+      "id": "introduce_sentence_162",
+      "content": "This is what happens when you don't know your {0}... and run away."
+    },
+    {
+      "id": "introduce_word_163",
+      "content": "Thirst"
+    },
+    {
+      "id": "introduce_sentence_163",
+      "content": "You do not know of our {0}!"
+    },
+    {
+      "id": "introduce_word_164",
+      "content": "Blood"
+    },
+    {
+      "id": "introduce_sentence_164",
+      "content": "Blossom from (the) {0}."
+    },
+    {
+      "id": "introduce_word_165",
+      "content": "Teddy"
+    },
+    {
+      "id": "introduce_sentence_165",
+      "content": "Now, little {0}~ Dance after me! Ta-da!"
+    },
+    {
+      "id": "introduce_word_166",
+      "content": "Curse"
+    },
+    {
+      "id": "introduce_sentence_166",
+      "content": "Feel what it's like to have someone {0} you."
+    },
+    {
+      "id": "introduce_word_167",
+      "content": "Hemobar"
+    },
+    {
+      "id": "introduce_sentence_167",
+      "content": "There once was a time when I believed in the greatness of {0}(s)."
+    },
+    {
+      "id": "introduce_word_168",
+      "content": "Parade"
+    },
+    {
+      "id": "introduce_sentence_168",
+      "content": "Will you join us in this... eternal {0}?"
+    },
+    {
+      "id": "introduce_word_169",
+      "content": "Fell Bullet"
+    },
+    {
+      "id": "introduce_sentence_169",
+      "content": "Let this accursed {0} pierce through them...!"
+    },
+    {
+      "id": "introduce_word_170",
+      "content": "Errand"
+    },
+    {
+      "id": "introduce_sentence_170",
+      "content": "... I'm not doing a(an) {0} like this for you again."
+    },
+    {
+      "id": "introduce_word_171",
+      "content": "Balance"
+    },
+    {
+      "id": "introduce_sentence_171",
+      "content": "I ain't off {0}."
+    },
+    {
+      "id": "introduce_word_172",
+      "content": "Dream"
+    },
+    {
+      "id": "introduce_sentence_172",
+      "content": "Was it sweet, your hollow, juvenile {0}?"
+    },
+    {
+      "id": "introduce_word_173",
+      "content": "Curiosity"
+    },
+    {
+      "id": "introduce_sentence_173",
+      "content": "{0} is a dangerous thing, you know..."
+    },
+    {
+      "id": "introduce_word_174",
+      "content": "Monster"
+    },
+    {
+      "id": "introduce_sentence_174",
+      "content": "In the shadow beneath your bed lies... (a) {0}!!"
+    },
+    {
+      "id": "introduce_word_175",
+      "content": "Full-Stop"
+    },
+    {
+      "id": "introduce_sentence_175",
+      "content": "A {0}... to your life."
+    },
+    {
+      "id": "introduce_word_176",
+      "content": "Snipe"
+    },
+    {
+      "id": "introduce_sentence_176",
+      "content": "Right, then. Ready to {0}."
+    },
+    {
+      "id": "introduce_word_177",
+      "content": "Magic Bullet"
+    },
+    {
+      "id": "introduce_sentence_177",
+      "content": "It really is as you say; this is a {0} that will never miss."
     }
   ]
 }

@@ -34,6 +34,20 @@
       "desc": "Конец хода: Уменьшение эффекта на 1\nПока этот эффект активен, получает двойной урон от навыков. Границы выносливости повышаются вдвое больше при провокации Тремора.\nЭффект перестаёт действовать, если этот персонаж оглушён.\nЕсли персонаж не оглушён по истечении этого эффекта, получает 5 Повышений урона в начале следующего хода",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "AaCePbBe",
+      "name": "Vengeance",
+      "desc": "- Low Morale\n- Turn Start: Gain 1 Attack Power Up and 3 Defense Level Down. Gain Damage Up based on the amount of damage taken last turn (1 Damage Up for every 3% of Max HP lost)",
+      "summary": "Gain Damage Up based on total damage taken last turn.",
+      "undefined": "-"
+    },
+    {
+      "id": "AaCePbBf",
+      "name": "Vengeance",
+      "desc": "- Panic\n- Turn Start: Gain 2 Attack Power Up and 6 Defense Level Down. Gain Damage Up based on the amount of damage taken last turn\n(1 Damage Up for every 3% of Max HP lost)",
+      "summary": "Gain Damage Up based on total damage taken last turn.",
+      "undefined": "-"
     }
   ]
 }

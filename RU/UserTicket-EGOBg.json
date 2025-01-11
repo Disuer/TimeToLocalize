@@ -70,7 +70,6 @@
       "name": "Путь 2 : Мёбиус",
       "desc": "Получается при прохождении Ж/д преломления, Пути 2 с 5-ю или более кругами за менее, чем 150 ходов"
     },
-
     {
       "id": 14,
       "name": "Путь 2 : Мёбиус II",
@@ -105,6 +104,96 @@
       "id": 20,
       "name": "Команда Контроля «Лоботомии»",
       "desc": "Получается из 2-й Вальпургиевой ночи"
+    },
+    {
+      "id": 21,
+      "name": "Line 3",
+      "desc": "Obtained by clearing the Terminus of Refraction Railway Line 3"
+    },
+    {
+      "id": 22,
+      "name": "Line 3 : MirrorClock OrangeRoad",
+      "desc": "Obtained by clearing the Terminus of Line 3 with 100 Turns or less Total Turns before Season 3: Bon Voyage ends"
+    },
+    {
+      "id": 23,
+      "name": "Yield My Flesh to Claim Their Bones",
+      "desc": "Obtained from the 'Yield My Flesh to Claim Their Bones' event"
+    },
+    {
+      "id": 24,
+      "name": "Yield My Flesh to Claim Their Bones - Special Ticket",
+      "desc": "Obtained from the 'Yield My Flesh to Claim Their Bones' event"
+    },
+    {
+      "id": 25,
+      "name": "1st Birthday",
+      "desc": "Obtained from the 1st Anniversary event"
+    },
+    {
+      "id": 26,
+      "name": "Wuthering Heights",
+      "desc": "Obtained at Season 4 Free Pass Level 70"
+    },
+    {
+      "id": 27,
+      "name": "Subterranean Laboratory",
+      "desc": "Obtained at Season 4 Limbus Pass Level 90"
+    },
+    {
+      "id": 28,
+      "name": "Knocking on the Window",
+      "desc": "Obtained at Season 4 Free Pass Level 110"
+    },
+    {
+      "id": 29,
+      "name": "Library of Ruina",
+      "desc": "Obtained from entering Library of Ruina special bonus coupon code"
+    },
+    {
+      "id": 30,
+      "name": "Dawn Office",
+      "desc": "Obtained from the 3rd Walpurgis Night event"
+    },
+    {
+      "id": 31,
+      "name": "Timekilling Time",
+      "desc": "Obtained from the Timekilling Time event"
+    },
+    {
+      "id": 32,
+      "name": "Timekilling Time - Special Ticket",
+      "desc": "Obtained from the Timekilling Time event"
+    },
+    {
+      "id": 33,
+      "name": "Line 4",
+      "desc": "Obtained by clearing Section #4 of Refraction Railway Line 4"
+    },
+    {
+      "id": 34,
+      "name": "Line 4 : Masquerade",
+      "desc": "Obtained by clearing Section #4 of Line 4 with 100 Turns or fewer Total Turns before Season 4: Clear All Cathy ends"
+    },
+    {
+      "id": 35,
+      "name": "Murder on the WARP Express",
+      "desc": "Obtained from the Murder on the WARP Express event"
+    },
+    {
+      "id": 36,
+      "name": "Murder on the WARP Express - Special Ticket",
+      "desc": "Obtained from the Murder on the WARP Express event"
+    },
+    {
+      "id": 37,
+      "name": "L Corp. Training Team",
+      "desc": "Obtained from the 4th Walpurgis Night event"
+    },
+    {
+      "id": 41,
+      "name": "Full-Stop Office",
+      "desc": "Obtained from the 5th Walpurgis Night event"
     }
   ]
 }

@@ -503,6 +503,31 @@
       "desc": "Когда ОЗ достигают 50% от макс. ОЗ, призывает 2 Древа желаний и меняет поведение."
     },
     {
+      "id": 805801,
+      "name": "Fairy Lure",
+      "desc": "When the fairy is attacked, only that part loses HP."
+    },
+    {
+      "id": 805802,
+      "name": "Exposed Base",
+      "desc": "When the fairy part is broken, the roots can be attacked next turn.\nAll parts gain 1 Attack Power Up, 2 Bind, and 3 Fragile next turn."
+    },
+    {
+      "id": 805803,
+      "name": "Spare Lure",
+      "desc": "The fairy regenerates the turn after the roots are exposed. (One time only)\nAfter the roots are exposed 3 times or destroyed, the unit is enraged."
+    },
+    {
+      "id": 805804,
+      "name": "Discovered Weakness",
+      "desc": "If the fairy has Tremor, it takes damage by its Potency at the end of the turn. (Max 20)"
+    },
+    {
+      "id": 805805,
+      "name": "Connected Weakness",
+      "desc": "If the part has Burn, it takes more damage based on its Potency. (Max +15%)"
+    },
+    {
       "id": 805901,
       "name": "Перерыв",
       "desc": "Если на поле боя присутствует Гигантский клевер, этот персонаж восстанавливает 30 ОЗ в конце хода."
@@ -526,6 +551,81 @@
       "id": 80620101,
       "name": "Загрязняющий лист",
       "desc": "В начале хода даёт 1 Повышение восстановления ОЗ и 1 Повышение силы атаки Фее-длинноножке."
+    },
+    {
+      "id": 826301,
+      "name": "Momentary Satiation",
+      "desc": "Turn End: If the ally with [PreparedMeat] is at 1 HP, kill the ally; then, all Parts gain 5 [Vulnerable], [Reduction], and [Disarming]."
+    },
+    {
+      "id": 826302,
+      "name": "Ravening Hunger",
+      "desc": "Turn Start: If there are surviving allies at 25%- HP, kill all allies.\nHeal (# of allies killed x 5)% of max Core HP.\nTurn End: If there are no surviving allies, gain 20 [Enhancement] next turn."
+    },
+    {
+      "id": 826303,
+      "name": "Torn Arm",
+      "desc": "When an Arm is broken, the Body gains 5 Bleed at every Turn Start."
+    },
+    {
+      "id": 826304,
+      "name": "Invitation to a Meal",
+      "desc": "Turn End: All Sinners heal 10 SP, and gain +1 E.G.O resource for all Affinities"
+    },
+    {
+      "id": 826501,
+      "name": "Empty Belly",
+      "desc": "Turn End: If the ally with [PreparedMeat] is Staggered, kill the ally."
+    },
+    {
+      "id": 826502,
+      "name": "Bottomless Hunger",
+      "desc": "After defeating an ally, heal 20 Core HP; then, gain 1 [Vulnerable] next turn."
+    },
+    {
+      "id": 826503,
+      "name": "Hunger",
+      "desc": "Turn End: If this unit failed to defeat an ally with Prepared Meat, gain 1 [Hunger]. At 75%- HP, gain 2. At 50%- HP, gain 3.\nTurn Start: If this unit defeated an ally with Prepared Meat, lose 1 [Hunger]."
+    },
+    {
+      "id": 826504,
+      "name": "Momentary Satiation",
+      "desc": "Turn End: At 0 [Hunger], gain (allies defeated this turn x 3) [AttackDown] and [DefenseDown]."
+    },
+    {
+      "id": 826505,
+      "name": "Ravening Hunger",
+      "desc": "Turn End: At 4 [Hunger], gain a stronger pattern."
+    },
+    {
+      "id": 811801,
+      "name": "Returning Past",
+      "desc": "If at 50+ [AccumulatedPastMirror], and if Core's HP is less than or equal to 80%, Core gains 200 HP by spending 50 [AccumulatedPastMirror] at Turn End"
+    },
+    {
+      "id": 811802,
+      "name": "Misplaced Past",
+      "desc": "When the body is broken, spend all Accumulated Past.\nWhen the body is broken, all Attack Types and Affinities become ineffective(0.5) against the body starting next turn until the end of this encounter."
+    },
+    {
+      "id": 811808,
+      "name": "Metronome",
+      "desc": "If the [AccumulatedPastMirror] is an odd number, gain 3 [Vulnerable] and [AttackDmgUp]\nIf it is an even number, gain 3 [Protection] and [AttackDmgDown]"
+    },
+    {
+      "id": 826401,
+      "name": "Care",
+      "desc": "Turn Start: Heal 15% of max HP"
+    },
+    {
+      "id": 826402,
+      "name": "Keep It Fresh",
+      "desc": "HP does not drop below 1"
+    },
+    {
+      "id": 814201,
+      "name": "Dueling",
+      "desc": "When HP falls below 50%, uses a special skill to target 1 unit, then becomes immune to Stagger and Panic for the next 2 turns.\nIf Yi Sang has 'Dueling', Dongbaek gains 1 Attack Power Up.\nIf Yi Sang wins the duel, all allies gain 3 Damage Up next turn.\nIf Dongbaek wins the duel, Dongbaek fully heals SP."
     }
   ]
 }

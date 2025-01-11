@@ -217,6 +217,10 @@
       "content": "Пройдите 4.5-1"
     },
     {
+      "id": "OtherStoryOpenCondition_9011",
+      "content": "Пройдите 4.5-11"
+    },
+    {
       "id": "MainStoryOpenCondition_105",
       "content": "Пройдите 5-1"
     },
@@ -283,6 +287,18 @@
     {
       "id": "PersoanlityStory_After",
       "content": ", (Послесловие)"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9018",
+      "content": "Пройдите 6.5-30"
+    },
+    {
+      "id": "MainStoryOpenCondition_107",
+      "content": "Пройдите 7-1"
+    },
+    {
+      "id": "OtherStoryOpenCondition_9019",
+      "content": "Пройдите 7-36"
     }
   ]
 }

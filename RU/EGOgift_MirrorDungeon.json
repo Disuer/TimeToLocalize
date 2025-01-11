@@ -96,11 +96,11 @@
     {
       "id": 9004,
       "name": "Пакет для флеботомии",
-      "desc": "При нанесении урона навыком восстанавливает 7.5% от потерянных ОЗ грешника. (Раз за ход)\n\nЕсли же навык был с грехом Гнева, восстанавливает 25% от потерянных ОЗ грешника.",
+      "desc": "При нанесении урона навыком восстанавливает 12.5% от потерянных ОЗ грешника. (Раз за ход)\n\nЕсли же навык был с грехом Гнева, восстанавливает 25% от потерянных ОЗ грешника.",
       "simpleDesc": [
         {
           "abilityID": 9004,
-          "simpleDesc": "Восстанасливает 7.5% от потерянных ОЗ"
+          "simpleDesc": "Восстанасливает 12.5% от потерянных ОЗ"
         },
         {
           "abilityID": 90041,
@@ -658,11 +658,11 @@
     {
       "id": 19027,
       "name": "Ближайшая звезда+",
-      "desc": "При нанесении урона дробящим навыком или навыком с грехом Гордыни, наносит <color=#f8c200>4 фиксированного урона</color> по СД.\n\nСоюзники с менее 0 СД наносят <color=#f8c200>+15%</color> урона.",
+      "desc": "При нанесении урона дробящим навыком или навыком с грехом Гордыни, наносит <color=#f8c200>3 фиксированного урона</color> по СД.\n\nСоюзники с менее 0 СД наносят <color=#f8c200>+15%</color> урона.",
       "simpleDesc": [
         {
           "abilityID": 19027,
-          "simpleDesc": "Наносит 4 урона по СД"
+          "simpleDesc": "Наносит 3 урона по СД"
         },
         {
           "abilityID": 190271,
@@ -696,7 +696,7 @@
         },
         {
           "abilityID": 90281,
-          "simpleDesc": "Восстанавливает 10% от потерянных ОЗ"
+          "simpleDesc": "Восстанавливает 12.5% от потерянных ОЗ"
         }
       ]
     },
@@ -1121,7 +1121,7 @@
         },
         {
           "abilityID": 90451,
-          "simpleDesc": "Наносит (сила <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>  *  потраченные счётчики <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>) урона Гнева. Противник теряет (потраченные счётчики <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>/2) уровней защиты на следующий ход."
+          "simpleDesc": "Наносит (сила <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>  *  потраченные счётчики <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> * 2) урона Гнева. Противник теряет (потраченные счётчики <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>/2) уровней защиты на следующий ход."
         }
       ]
     },
@@ -1316,7 +1316,7 @@
         },
         {
           "abilityID": 90501,
-          "simpleDesc": "Снижает уровень атаки и уровень защиты на (сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>/3) на этот ход"
+          "simpleDesc": "Снижает уровень атаки и уровень защиты на (потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>/3) на этот ход"
         }
       ]
     },
@@ -1331,7 +1331,7 @@
         },
         {
           "abilityID": 190501,
-          "simpleDesc": "Снижает уровень атаки и уровень защиты на (сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>/3) на этот ход"
+          "simpleDesc": "Снижает уровень атаки и уровень защиты на (потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>/3) на этот ход"
         }
       ]
     },
@@ -1346,7 +1346,7 @@
         },
         {
           "abilityID": 290501,
-          "simpleDesc": "Снижает уровень атаки и уровень защиты на (сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>/2) на этот ход"
+          "simpleDesc": "Снижает уровень атаки и уровень защиты на (потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>/2) на этот ход"
         }
       ]
     },
@@ -1357,11 +1357,11 @@
       "simpleDesc": [
         {
           "abilityID": 9051,
-          "simpleDesc": "Наносит в 1.5 раза больше единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+          "simpleDesc": "Даёт в 1.5 раза больше единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
         },
         {
           "abilityID": 90511,
-          "simpleDesc": "Наносит 2 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+          "simpleDesc": "Даёт 2 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
         }
       ]
     },
@@ -1372,11 +1372,11 @@
       "simpleDesc": [
         {
           "abilityID": 19051,
-          "simpleDesc": "Наносит в 1.5 раза больше единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+          "simpleDesc": "Даёт в 1.5 раза больше единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
         },
         {
           "abilityID": 190511,
-          "simpleDesc": "Наносит 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+          "simpleDesc": "Даёт 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
         }
       ]
     },
@@ -1391,7 +1391,7 @@
         },
         {
           "abilityID": 290511,
-          "simpleDesc": "Наносит 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+          "simpleDesc": "Даёт 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
         }
       ]
     },
@@ -1548,11 +1548,11 @@
       "simpleDesc": [
         {
           "abilityID": 9056,
-          "simpleDesc": "Наносит 5 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+          "simpleDesc": "Даёт 5 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
         },
         {
           "abilityID": 90561,
-          "simpleDesc": "Наносит 7 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
+          "simpleDesc": "Даёт 7 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
         }
       ]
     },
@@ -1608,7 +1608,7 @@
         },
         {
           "abilityID": 90601,
-          "simpleDesc": "Наносит (сила <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>  *  счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>) урона Чревоугодия и понижает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
+          "simpleDesc": "Наносит (потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>  *  счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>) урона Чревоугодия и понижает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2"
         }
       ]
     },
@@ -1623,7 +1623,7 @@
         },
         {
           "abilityID": 190601,
-          "simpleDesc": "Наносит (сила <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>  *  счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>) урона Чревоугодия и понижает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
+          "simpleDesc": "Наносит (потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>  *  счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>) урона Чревоугодия и понижает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
         }
       ]
     },
@@ -1638,7 +1638,7 @@
         },
         {
           "abilityID": 290601,
-          "simpleDesc": "Наносит (сила <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>  *  счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>) урона Чревоугодия"
+          "simpleDesc": "Наносит (потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>  *  счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>) урона Чревоугодия"
         }
       ]
     },
@@ -1717,11 +1717,11 @@
       "simpleDesc": [
         {
           "abilityID": 9063,
-          "simpleDesc": "Наносит 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+          "simpleDesc": "Даёт 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
         },
         {
           "abilityID": 90631,
-          "simpleDesc": "Наносит 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2."
+          "simpleDesc": "Даёт 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2."
         }
       ]
     },
@@ -1732,11 +1732,11 @@
       "simpleDesc": [
         {
           "abilityID": 19063,
-          "simpleDesc": "Наносит 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+          "simpleDesc": "Даёт 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
         },
         {
           "abilityID": 190631,
-          "simpleDesc": "Наносит 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3."
+          "simpleDesc": "Даёт 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3."
         }
       ]
     },
@@ -1747,22 +1747,22 @@
       "simpleDesc": [
         {
           "abilityID": 29063,
-          "simpleDesc": "Наносит 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+          "simpleDesc": "Даёт 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
         },
         {
           "abilityID": 290631,
-          "simpleDesc": "Наносит 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3."
+          "simpleDesc": "Даёт 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3."
         }
       ]
     },
     {
       "id": 9064,
       "name": "Сломанный револьвер",
-      "desc": "Начало хода: противники с <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывом</link></u></color> теряют 3 уровня атаки на этот ход.",
+      "desc": "Начало хода: противники с <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывом</link></u></color> теряют 2 уровня атаки на этот ход.",
       "simpleDesc": [
         {
           "abilityID": 9064,
-          "simpleDesc": "-3 уровня атаки"
+          "simpleDesc": "-2 уровня атаки и защиты"
         }
       ]
     },
@@ -1945,7 +1945,7 @@
       "simpleDesc": [
         {
           "abilityID": 19070,
-          "simpleDesc": "Gain 12 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color>"
+          "simpleDesc": "Получает 12 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color>"
         }
       ]
     },
@@ -1956,7 +1956,7 @@
       "simpleDesc": [
         {
           "abilityID": 29070,
-          "simpleDesc": "Gain 15 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color>"
+          "simpleDesc": "Получает 15 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color>"
         }
       ]
     },
@@ -2027,11 +2027,11 @@
       "simpleDesc": [
         {
           "abilityID": 9073,
-          "simpleDesc": "Наносит 1 единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+          "simpleDesc": "Даёт 1 единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
         },
         {
           "abilityID": 90731,
-          "simpleDesc": "Наносит 2 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+          "simpleDesc": "Даёт 2 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
         }
       ]
     },
@@ -2042,11 +2042,11 @@
       "simpleDesc": [
         {
           "abilityID": 19073,
-          "simpleDesc": "Наносит 2 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+          "simpleDesc": "Даёт 2 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
         },
         {
           "abilityID": 190731,
-          "simpleDesc": "Наносит 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
+          "simpleDesc": "Даёт 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
         }
       ]
     },
@@ -2057,11 +2057,11 @@
       "simpleDesc": [
         {
           "abilityID": 29073,
-          "simpleDesc": "Наносит 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
+          "simpleDesc": "Даёт 3 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3"
         },
         {
           "abilityID": 290731,
-          "simpleDesc": "Наносит 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 4"
+          "simpleDesc": "Даёт 4 единицы потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 4"
         }
       ]
     },
@@ -2113,7 +2113,7 @@
     {
       "id": 9075,
       "name": "Аккумулирующие перчатки",
-      "desc": "Повышает максимальный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10.\n\nНачало столкновения: все союзники повышают счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5.",
+      "desc": "Повышает максимальный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10.\n\nНачало столкновения: все союзники повышают счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5.\n\nНачало хода: повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2 всем союзникам.",
       "simpleDesc": [
         {
           "abilityID": 9075,
@@ -2122,13 +2122,17 @@
         {
           "abilityID": 90751,
           "simpleDesc": "Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5"
+        },
+        {
+          "abilityID": 90752,
+          "simpleDesc": "Начало хода: повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2 всем союзникам"
         }
       ]
     },
     {
       "id": 19075,
       "name": "Аккумулирующие перчатки+",
-      "desc": "Повышает максимальный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10.\n\nНачало столкновения: все союзники повышают <color=#f8c200>счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 6</color>.",
+      "desc": "Повышает максимальный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10.\n\nНачало столкновения: все союзники повышают <color=#f8c200>счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 6</color>.\n\nНачало хода: повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 всем союзникам.",
       "simpleDesc": [
         {
           "abilityID": 19075,
@@ -2137,13 +2141,17 @@
         {
           "abilityID": 190751,
           "simpleDesc": "Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 6"
+        },
+        {
+          "abilityID": 190752,
+          "simpleDesc": "Начало хода: повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 всем союзникам"
         }
       ]
     },
     {
       "id": 29075,
       "name": "Аккумулирующие перчатки++",
-      "desc": "Повышает максимальный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10.\n\nНачало столкновения: все союзники повышают <color=#f8c200>счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8</color>.",
+      "desc": "Повышает максимальный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10.\n\nНачало столкновения: все союзники повышают <color=#f8c200>счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8</color>.\n\nНачало хода: повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 всем союзникам.",
       "simpleDesc": [
         {
           "abilityID": 29075,
@@ -2152,6 +2160,10 @@
         {
           "abilityID": 290751,
           "simpleDesc": "Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8"
+        },
+        {
+          "abilityID": 290752,
+          "simpleDesc": "Начало хода: повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 всем союзникам"
         }
       ]
     },
@@ -2224,7 +2236,7 @@
     {
       "id": 9082,
       "name": "Осколки отношений",
-      "desc": "При получении: повышает уровни всех идентичностей на 5. [Невозможно продать]",
+      "desc": "При получении: повышает уровни всех идентичностей на 5.",
       "simpleDesc": [
         {
           "abilityID": 9082,
@@ -2235,7 +2247,7 @@
     {
       "id": 19082,
       "name": "Осколки отношений+",
-      "desc": "При получении: повышает уровни всех идентичностей <color=#f8c200>на 7</color>. [Невозможно продать]",
+      "desc": "При получении: повышает уровни всех идентичностей <color=#f8c200>на 7</color>.",
       "simpleDesc": [
         {
           "abilityID": 19082,
@@ -2246,7 +2258,7 @@
     {
       "id": 29082,
       "name": "Осколки отношений++",
-      "desc": "При получении: повышает уровни всех идентичностей <color=#f8c200>на 10</color>. [Невозможно продать]",
+      "desc": "При получении: повышает уровни всех идентичностей <color=#f8c200>на 10</color>.",
       "simpleDesc": [
         {
           "abilityID": 29082,
@@ -2272,7 +2284,7 @@
       "simpleDesc": [
         {
           "abilityID": 9084,
-          "simpleDesc": "Даёт <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешек</link></u></color>"
+          "simpleDesc": "Даёт 5 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешек</link></u></color>"
         }
       ]
     },
@@ -2338,7 +2350,7 @@
     {
       "id": 9088,
       "name": "Упокой мёртвых",
-      "desc": "Начало столкновения: Дар активируется при наличии у 5 и более идентичностей навыков, наносящих силу <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, особый Огонь или повышающих счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> (ЭГО навыки не учитываются).\n\nНачало первого хода волны: повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 всем противникам (или частям аномалии); наносит в общей сложности 15 единиц потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> всем противникам (или всем частям аномалии).\n\nНавыки, наносящие силу <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, особый Огонь или повышающих счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>: конечная мощь +1, сила монеты +1, наносит 1 единицу потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1.",
+      "desc": "Начало столкновения: Дар активируется при наличии у 5 и более идентичностей навыков, наносящих силу <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, особый Огонь или повышающих счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> (ЭГО навыки не учитываются).\n\nНачало первого хода волны: повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 всем противникам (или частям аномалии); наносит в общей сложности 15 единиц потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> всем противникам (или всем частям аномалии).\n\nНавыки, наносящие силу <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, особый Огонь или повышающих счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>: конечная мощь +1, сила монеты +1, наносит 1 единицу потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1.\n\nНавыки наносящие <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> или особый <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color> при победе в поединке наносят потенциал (оставшиеся монеты + 1) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>.",
       "simpleDesc": [
         {
           "abilityID": 9088,
@@ -2347,6 +2359,10 @@
         {
           "abilityID": 90881,
           "simpleDesc": "Итоговая сила +1, сила монеты +1, наносит 1 единицу потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+        },
+        {
+          "abilityID": 90882,
+          "simpleDesc": "Наносит потенцил (оставшиеся монеты + 1) <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
         }
       ]
     },
@@ -2407,6 +2423,14 @@
         {
           "abilityID": 90901,
           "simpleDesc": "Навыки, наносящие силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышающие счётчики <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>: сила монет +2, +100% наносимого урона"
+        },
+        {
+          "abilityID": 90902,
+          "simpleDesc": "Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed' gain Coin Power +1."
+        },
+        {
+          "abilityID": 90903,
+          "simpleDesc": "Inflict [Laceration] Potency on the defeated enemy randomly between all enemies"
         }
       ]
     },
@@ -2454,7 +2478,11 @@
         },
         {
           "abilityID": 90921,
-          "simpleDesc": "Оглашает противника"
+          "simpleDesc": "Оглушает противника"
+        },
+        {
+          "abilityID": 90922,
+          "simpleDesc": "Наносит 1 Уязвимость"
         }
       ]
     },
@@ -2503,6 +2531,10 @@
         {
           "abilityID": 90941,
           "simpleDesc": "Тратит 10 единиц потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> вместо счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+        },
+        {
+          "abilityID": 90942,
+          "simpleDesc": "Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1"
         }
       ]
     },
@@ -2551,6 +2583,10 @@
         {
           "abilityID": 90961,
           "simpleDesc": "Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color> на (потраченные в прошлом ходе счётчики <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Утопания</link></u></color>/2)"
+        },
+        {
+          "abilityID": 90961,
+          "simpleDesc": "Inflict Gloom Affinity damage"
         }
       ]
     },
@@ -2611,6 +2647,10 @@
         {
           "abilityID": 90981,
           "simpleDesc": "з-ий навык: конечная мощь +3, сила монет + (12/количество монет), +(50/количество монет)% наносимого урона."
+        },
+        {
+          "abilityID": 90982,
+          "simpleDesc": "Gain 3 [Breath] Potency. Allies with Gloom Affinity Attack Skills gain an additional +2 [Breath] Count"
         }
       ]
     },
@@ -2651,15 +2691,2322 @@
       "id": 9100,
       "name": "Вечный двигатель 1-го типа",
       "desc": "Начало столкновения: Дар активируется при наличии у 5 и более идентичностей навыков, повышающих счётчики <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (ЭГО навыки не учитываются).\n\nНачало первого хода волны: все союзники получают 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Защитных барьеров</link></u></color> и 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color>.\n\nНачало следующего хода: все союзники повышают свои уровни атаки на (общая сумма затраченных навыками счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>/4). (Максимум при 40 затраченных счётчиках <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)",
- 
       "simpleDesc": [
         {
           "abilityID": 9100,
           "simpleDesc": "Даёт 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Защитных барьеров</link></u></color> и 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color>"
         },
         {
-          "abilityID": 9100,
-          "simpleDesc": "Повышает уровень атаки на (общая сумма затраченных навыкаами счётчиков <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>/4)"
+          "abilityID": 91001,
+          "simpleDesc": "Gain 3 [ChargeForceField]"
+        },
+        {
+          "abilityID": 91002,
+          "simpleDesc": "Gain [AttackDmgUp]"
+        },
+        {
+          "abilityID": 91003,
+          "simpleDesc": "Gain 1 [Charge]"
+        },
+        {
+          "abilityID": 91004,
+          "simpleDesc": "Inflict ([Charge] - 1) [DefenseDown]"
+        }
+      ]
+    },
+    {
+      "id": 9101,
+      "name": "Melted Paraffin",
+      "desc": "When winning a Clash with a Skill that inflicts [Combustion] Potency, Count, or 'Unique Burn', inflict (# of remaining Coins/2) [Combustion] Potency on the target.",
+      "simpleDesc": [
+        {
+          "abilityID": 9101,
+          "simpleDesc": "Clash Win: Inflict (# of remaining Coins/2) [Combustion] Potency on the target"
+        }
+      ]
+    },
+    {
+      "id": 19101,
+      "name": "Melted Paraffin+",
+      "desc": "When winning a Clash with a Skill that inflicts [Combustion] Potency, Count, or 'Unique Burn', inflict <style=\"upgradeHighlight\">(# of remaining Coins/2 + 1)</style> [Combustion] Potency on the target.",
+      "simpleDesc": [
+        {
+          "abilityID": 19101,
+          "simpleDesc": "Clash Win: Inflict (# of remaining Coins/2 + 1) [Combustion] Potency on the target"
+        }
+      ]
+    },
+    {
+      "id": 29101,
+      "name": "Melted Paraffin++",
+      "desc": "When winning a Clash with a Skill that inflicts [Combustion] Potency, Count, or 'Unique Burn', inflict <style=\"upgradeHighlight\">(# of remaining Coins + 1)</style> [Combustion] Potency on the target.",
+      "simpleDesc": [
+        {
+          "abilityID": 29101,
+          "simpleDesc": "Clash Win: Inflict (# of remaining Coins + 1) [Combustion] Potency on the target"
+        }
+      ]
+    },
+    {
+      "id": 9102,
+      "name": "Polarization",
+      "desc": "If the ally has 30 or more SP than the target, deal +7.5% more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without SP, their 'SP' counts as 0)",
+      "simpleDesc": [
+        {
+          "abilityID": 9102,
+          "simpleDesc": "Deal +7.5% more damage with Skills that inflict [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 19102,
+      "name": "Polarization+",
+      "desc": "If the ally has <style=\"upgradeHighlight\">25</style> or more SP than the target, deal <style=\"upgradeHighlight\">+12.5%</style> more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without SP, their 'SP' counts as 0)",
+      "simpleDesc": [
+        {
+          "abilityID": 19102,
+          "simpleDesc": "Deal +12.5% more damage with Skills that inflict [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 29102,
+      "name": "Polarization++",
+      "desc": "If the ally has <style=\"upgradeHighlight\">15</style> or more SP than the target, deal <style=\"upgradeHighlight\">+20%</style> more damage with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'. (For enemies without SP, their 'SP' counts as 0)",
+      "simpleDesc": [
+        {
+          "abilityID": 29102,
+          "simpleDesc": "Deal +20% more damage with Skills that inflict [Combustion]"
+        }
+      ]
+    },
+    {
+      "id": 9103,
+      "name": "Pain of Stifled Rage",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nWhen inflicting [Combustion] or 'Unique Burn' with a Skill effect to an enemy that has [Combustion] or 'Unique Burn', gain 1 [Agility] next turn. (2 times per Skill, 2 times per turn)\n\nIf the affected unit already has [Agility], gain 1 [Agility] and 2 [AttackUp] instead. (once per Skill, 2 times per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 9103,
+          "simpleDesc": "When inflicting [Combustion] or 'Unique Burn' with a Skill effect, gain 1 [Agility] next turn."
+        }
+      ]
+    },
+    {
+      "id": 19103,
+      "name": "Pain of Stifled Rage+",
+      "desc": "[Effects apply only to #1, #2, <style=\"upgradeHighlight\">and #3</style> Deployed Identities]\n\nWhen inflicting [Combustion] or 'Unique Burn' with a Skill effect to an enemy that has [Combustion] or 'Unique Burn', gain 1 [Agility] next turn. (2 times per Skill, 2 times per turn)\n\nIf the affected unit already has [Agility], gain <style=\"upgradeHighlight\">2 [Agility]</style> and 2 [AttackUp] instead. (once per Skill, 2 times per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 19103,
+          "simpleDesc": "When inflicting [Combustion] or 'Unique Burn' with a Skill effect, gain 1 [Agility] next turn."
+        }
+      ]
+    },
+    {
+      "id": 29103,
+      "name": "Pain of Stifled Rage++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nWhen inflicting [Combustion] or 'Unique Burn' with a Skill effect to an enemy that has [Combustion] or 'Unique Burn', gain 1 [Agility] next turn. (2 times per Skill, 2 times per turn)\n\nIf the affected unit already has [Agility], gain 2 [Agility], 2 [AttackUp], and <style=\"upgradeHighlight\">2 [AttackDmgUp]</style> instead. (once per Skill, 2 times per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 29103,
+          "simpleDesc": "When inflicting [Combustion] or 'Unique Burn' with a Skill effect to an enemy that has [Combustion] or 'Unique Burn', gain 1 [Agility] next turn."
+        }
+      ]
+    },
+    {
+      "id": 9104,
+      "name": "Ardent Flower",
+      "desc": "[Effect applies only to #1, #2 Deployed Identities]\n\nWhen an ally attacks an enemy, if the target has ([Combustion] Potency on self)% or less HP(for Abnormalities, Core HP), deal +50% more damage with Attack Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'.",
+      "simpleDesc": [
+        {
+          "abilityID": 9104,
+          "simpleDesc": "If conditions are met: deal +50% more damage with Attack Skills that inflict [Combustion] Potency, Count, or 'Unique Burn'"
+        }
+      ]
+    },
+    {
+      "id": 9105,
+      "name": "Fragment of Hellfire",
+      "desc": "Activates when using E.G.O Awakening Skills that apply [Combustion] Potency, Count, or 'Unique Burn'. (NOT Corrosion Skills)\n\nGain Final Power equal to (Wrath E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nWrath E.G.O Awakening Skills: Inflict additional [Combustion] Count based on E.G.O grades Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on) and deal +(Atk Weight/# of attack targets x 20)% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9105,
+          "simpleDesc": "Gain Final Power equal to (Wrath E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91051,
+          "simpleDesc": "Before Attack, inflict additional [Combustion] Count and deal more damage"
+        }
+      ]
+    },
+    {
+      "id": 9106,
+      "name": "Arrested Hymn",
+      "desc": "Combat Start: if all enemies (or all Abnormality parts) have [Laceration], all allies gain 1 [Agility] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9106,
+          "simpleDesc": "If all enemies have [Laceration], all allies gain 1 [Agility] next turn."
+        }
+      ]
+    },
+    {
+      "id": 19106,
+      "name": "Arrested Hymn+",
+      "desc": "Combat Start: if all enemies (or all Abnormality parts) have [Laceration], all allies gain 1 [Agility] and <style=\"upgradeHighlight\">1 [AttackDmgUp]</style> next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 19106,
+          "simpleDesc": "If all enemies have [Laceration], all allies gain 1 [Agility] and 1 [AttackDmgUp] next turn."
+        }
+      ]
+    },
+    {
+      "id": 29106,
+      "name": "Arrested Hymn++",
+      "desc": "Combat Start: if all enemies (or all Abnormality parts) have [Laceration], all allies gain <style=\"upgradeHighlight\">2 [Agility]</style>, 1 [AttackDmgUp], and <style=\"upgradeHighlight\">2 [AttackUp]</style> next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 29106,
+          "simpleDesc": "If all enemies have [Laceration], all allies gain 2 [Agility], 1 [AttackDmgUp], and 2 [AttackUp] next turn."
+        }
+      ]
+    },
+    {
+      "id": 9107,
+      "name": "Tangled Bundle",
+      "desc": "When the ally with the fastest Speed deals damage to an enemy with a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', deal +12.5% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9107,
+          "simpleDesc": "When dealing damage to an enemy with a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', deal +12.5% more damage"
+        }
+      ]
+    },
+    {
+      "id": 19107,
+      "name": "Tangled Bundle+",
+      "desc": "When <style=\"upgradeHighlight\">2</style> allies with the fastest Speed deals damage to an enemy with a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', deal +15% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 19107,
+          "simpleDesc": "When dealing damage to an enemy with a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', deal +15% more damage"
+        }
+      ]
+    },
+    {
+      "id": 29107,
+      "name": "Tangled Bundle++",
+      "desc": "When <style=\"upgradeHighlight\">3</style> allies with the fastest Speed deals damage to an enemy with a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', deal <style=\"upgradeHighlight\">+20%</style> more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 29107,
+          "simpleDesc": "When dealing damage to an enemy with a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9108,
+      "name": "Awe",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nWhen using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', and if the main target has 7+ [Laceration] Count, deal +10% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 9108,
+          "simpleDesc": "If conditions are met: deal +10% more damage if the main target has 7+ [Laceration] Count%"
+        }
+      ]
+    },
+    {
+      "id": 19108,
+      "name": "Awe+",
+      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nWhen using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', and if the main target has 5+ [Laceration] Count, deal <style=\"upgradeHighlight\">+15%</style> more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 19108,
+          "simpleDesc": "If conditions are met: deal +15% more damage if the main target has 5+ [Laceration] Count"
+        }
+      ]
+    },
+    {
+      "id": 29108,
+      "name": "Awe++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nWhen using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', and if the main target has 3+ [Laceration] Count, deal <style=\"upgradeHighlight\">+20%</style> more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 29108,
+          "simpleDesc": "If conditions are met: deal +20% more damage if the main target has 3+ [Laceration] Count%"
+        }
+      ]
+    },
+    {
+      "id": 9109,
+      "name": "Respite",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nActivates upon Clash Win using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed'\n\nInflict +(# of remaining Coins/2) [Laceration] Count to the target, and gain [AttackUp] equal to that value next turn\n\nFor Skills with 2- Coins, use (# of remaining Coins+3) to calculate instead",
+      "simpleDesc": [
+        {
+          "abilityID": 9109,
+          "simpleDesc": "Inflict +(# of remaining Coins/2) [Laceration] Count to the target, and gain [AttackUp] equal to that value next turn"
+        },
+        {
+          "abilityID": 91091,
+          "simpleDesc": "For Skills with 2- Coins, use (# of remaining Coins+3) to calculate instead"
+        }
+      ]
+    },
+    {
+      "id": 9110,
+      "name": "Fragment of Allurement",
+      "desc": "Activates when using E.G.O Awakening Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed'. (NOT Corrosion Skills)\n\nGain Final Power equal to (Lust E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nLust E.G.O Awakening Skills: Inflict additional [Laceration] Count based on E.G.O grades Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on) and deal additional Lust damage equal to [Laceration] Potency on target",
+      "simpleDesc": [
+        {
+          "abilityID": 9110,
+          "simpleDesc": "Gain Final Power equal to (Lust E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91101,
+          "simpleDesc": "If conditions are met: inflict additional [Laceration] Count and deal Lust damage equal to [Laceration] Potency on target."
+        }
+      ]
+    },
+    {
+      "id": 9111,
+      "name": "Bio-venom Vial",
+      "desc": "If a target with [Vibration] Potency is defeated, inflict 0.5([Vibration] Potency + Count on target) Sloth damage to a random enemy(or a random Abnormality part) next turn",
+      "simpleDesc": [
+        {
+          "abilityID": 9110,
+          "simpleDesc": "If conditions are met: inflict Sloth damage to a random enemy next turn"
+        }
+      ]
+    },
+    {
+      "id": 19111,
+      "name": "Bio-venom Vial+",
+      "desc": "If a target with [Vibration] Potency is defeated, inflict <style=\"upgradeHighlight\">0.75</style>([Vibration] Potency + Count on target) Sloth damage to a random enemy(or a random Abnormality part) next turn",
+      "simpleDesc": [
+        {
+          "abilityID": 19110,
+          "simpleDesc": "If conditions are met: inflict Sloth damage to a random enemy next turn"
+        }
+      ]
+    },
+    {
+      "id": 29111,
+      "name": "Bio-venom Vial++",
+      "desc": "If a target with [Vibration] Potency is defeated, inflict <style=\"upgradeHighlight\">1.25</style>([Vibration] Potency + Count on target) Sloth damage to a random enemy(or a random Abnormality part) next turn",
+      "simpleDesc": [
+        {
+          "abilityID": 29110,
+          "simpleDesc": "If conditions are met: inflict Sloth damage to a random enemy next turn"
+        }
+      ]
+    },
+    {
+      "id": 9112,
+      "name": "Venomous Skin",
+      "desc": "When winning a Clash with a Skill that applies(including on self) [Vibration] Potency or Count, inflict (# of remaining Coins/2) [Vibration] Potency on the target.",
+      "simpleDesc": [
+        {
+          "abilityID": 9110,
+          "simpleDesc": "Clash Win: Inflict (# of remaining Coins/2) [Vibration] Potency on the target"
+        }
+      ]
+    },
+    {
+      "id": 19112,
+      "name": "Venomous Skin+",
+      "desc": "When winning a Clash with a Skill that applies(including on self) [Vibration] Potency or Count, inflict <style=\"upgradeHighlight\">(# of remaining Coins)</style> [Vibration] Potency on the target.",
+      "simpleDesc": [
+        {
+          "abilityID": 19110,
+          "simpleDesc": "Clash Win: Inflict (# of remaining Coins) [Vibration] Potency on the target"
+        }
+      ]
+    },
+    {
+      "id": 29112,
+      "name": "Venomous Skin++",
+      "desc": "When winning a Clash with a Skill that applies(including on self) [Vibration] Potency or Count, inflict (# of remaining Coins) [Vibration] Potency and <style=\"upgradeHighlight\">(# of remaining Coins/2) [Vibration] Count</style> on the target.",
+      "simpleDesc": [
+        {
+          "abilityID": 29110,
+          "simpleDesc": "Clash Win: Inflict (# of remaining Coins) [Vibration] Potency and (# of remaining Coins/2) [Vibration] Count on the target."
+        }
+      ]
+    },
+    {
+      "id": 9113,
+      "name": "Sour Liquor Aroma",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nSkills that apply(including on self) [Vibration] Potency or Count gain 'Offense Level' +2\n\nIf the main target has [Vibration] and is Staggered, deal +(Stagger Level x 7.5)% more damage with the Skill\n\nWhen attacking an enemy with a Skill that applies [Vibration] Potency or Count, deal +(Stagger Level x 15)% more damage with the Skill instead",
+      "simpleDesc": [
+        {
+          "abilityID": 9113,
+          "simpleDesc": "Skills that apply [Vibration] Potency or Count gains Offense Level +2"
+        },
+        {
+          "abilityID": 91131,
+          "simpleDesc": "If conditions are met: deal +(Stagger Level x 7.5)% more damage with the Skill"
+        },
+        {
+          "abilityID": 91132,
+          "simpleDesc": "If conditions are met: deal +(Stagger Level x 15)% more damage with the Skill instead"
+        }
+      ]
+    },
+    {
+      "id": 19113,
+      "name": "Sour Liquor Aroma+",
+      "desc": "[Effects apply only to #1, #2, <style=\"upgradeHighlight\">and #3</style> Deployed Identities]\n\nSkills that apply(including on self) [Vibration] Potency or Count gain 'Offense Level' +2\n\nIf the main target has [Vibration] and is Staggered, deal +(Stagger Level x <style=\"upgradeHighlight\">10</style>)% more damage with the Skill\n\nWhen attacking an enemy with a Skill that applies [Vibration] Potency or Count, deal +(Stagger Level x <style=\"upgradeHighlight\">20</style>)% more damage with the Skill instead",
+      "simpleDesc": [
+        {
+          "abilityID": 19113,
+          "simpleDesc": "Skills that apply [Vibration] Potency or Count gains Offense Level +2"
+        },
+        {
+          "abilityID": 191131,
+          "simpleDesc": "If conditions are met: deal +(Stagger Level x 10)% more damage with the Skill"
+        },
+        {
+          "abilityID": 191132,
+          "simpleDesc": "If conditions are met: deal +(Stagger Level x 20)% more damage with the Skill"
+        }
+      ]
+    },
+    {
+      "id": 29113,
+      "name": "Sour Liquor Aroma++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nSkills that apply(including on self) [Vibration] Potency or Count gain Offense Level <style=\"upgradeHighlight\">+3</style>\n\nIf the main target has [Vibration] and is Staggered, deal +(Stagger Level x <style=\"upgradeHighlight\">12.5</style>)% more damage with the Skill\n\nWhen attacking an enemy with a Skill that applies [Vibration] Potency or Count, deal +(Stagger Level x <style=\"upgradeHighlight\">25</style>)% more damage with the Skill instead",
+      "simpleDesc": [
+        {
+          "abilityID": 29113,
+          "simpleDesc": "Skills that apply [Vibration] Potency or Count gain Offense Level +3"
+        },
+        {
+          "abilityID": 291131,
+          "simpleDesc": "If conditions are met: deal +(Stagger Level x 12.5)% more damage with the Skill"
+        },
+        {
+          "abilityID": 291132,
+          "simpleDesc": "If conditions are met: deal +(Stagger Level x 25)% more damage with the Skill"
+        }
+      ]
+    },
+    {
+      "id": 9114,
+      "name": "Mirror Tactile Synaesthesia",
+      "desc": "When an ally Staggers an enemy with an Attack Skill(except E.G.O Skills) that applies(including on self) [Vibration] Potency or Count, randomly apply 1/3 of the [Vibration] Potency on target between other enemies(or a random Abnormality Part) next turn.\n\nIf there are no other enemies to apply the above effect to, multiply [Vibration] Potency on target by 1.5 next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9114,
+          "simpleDesc": "If conditions are met: randomly apply 1/3 of the [Vibration] Potency on target between other enemies next turn."
+        },
+        {
+          "abilityID": 91141,
+          "simpleDesc": "If there are no other enemies to apply the above effect to, multiply [Vibration] Potency on target by 1.5 next turn."
+        }
+      ]
+    },
+    {
+      "id": 9115,
+      "name": "Clockwork Spring",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nSkills that apply(including on self) [Vibration] Potency or Count gain Clash Power +1\n\nWhen dealing damage to an enemy that has [Vibration] with Attack Skills(except E.G.O Skills) that inflict [Vibration] Potency or Count, deal +([Vibration] Potency on target + 5)% more damage.\n\nFor Pride Skills: deal +(sum of [Vibration] Potency and Count on target +5)% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 9115,
+          "simpleDesc": "Skills that apply(including on self) [Vibration] Potency or Count gain Clash Power +1"
+        },
+        {
+          "abilityID": 91151,
+          "simpleDesc": "If conditions are met: deal +([Vibration] Potency on target + 5)% more damage"
+        },
+        {
+          "abilityID": 91152,
+          "simpleDesc": "If conditions are met: deal +(sum of [Vibration] Potency and Count on target +5)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9116,
+      "name": "Fragment of Inertia",
+      "desc": "Activates when using E.G.O Awakening Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (NOT Corrosion Skills)\n\nGain Final Power equal to (Sloth E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nSloth E.G.O Awakening Skills: Inflict additional [Vibration] Count Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +([Vibration] Potency on target x 1.5)% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 9116,
+          "simpleDesc": "Gain Final Power equal to (Sloth E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91161,
+          "simpleDesc": "If conditions are met: Inflict additional [Vibration] Count Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +([Vibration] Potency on target x 1.5)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9117,
+      "name": "Smoking Gunpowder",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nTurn End: If an Attack Skill inflicting [Burst] Potency or Count has been used at least once this turn, gain 1 [Agility] next turn.\n\nIf this unit's Speed is at 6+, Attack Skills inflicting [Burst] Potency or Count deal +12.5% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9117,
+          "simpleDesc": "If conditions are met: gain 1 [Agility] next turn."
+        },
+        {
+          "abilityID": 91171,
+          "simpleDesc": "If conditions are met: deal +12.5% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9118,
+      "name": "Bone Stake",
+      "desc": "[Burst] effects deal +100% more damage against enemy Shields",
+      "simpleDesc": [
+        {
+          "abilityID": 9118,
+          "simpleDesc": "[Burst] effects deal +100% more damage against enemy Shields"
+        }
+      ]
+    },
+    {
+      "id": 9119,
+      "name": "Ragged Umbrella",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nWhen winning a Clash using a Skill that inflicts [Burst] Potency or Count, inflict +2 [Burst] Count against the target (once per turn per Identity)\n\nIf the target doesn't have [Burst], inflict 3 [Burst] Potency and +2 [Burst] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9119,
+          "simpleDesc": "Inflict 2 [Burst] on the target"
+        },
+        {
+          "abilityID": 91191,
+          "simpleDesc": "Inflict 3 [Burst] Potency and +2 [Burst] Count"
+        }
+      ]
+    },
+    {
+      "id": 19119,
+      "name": "Ragged Umbrella+",
+      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nWhen winning a Clash using a Skill that inflicts [Burst] Potency or Count, inflict <style=\"upgradeHighlight\">2 [Burst] Potency</style> and +2 [Burst] Count against the target (once per turn per Identity)\n\nIf the target doesn't have [Burst], inflict <style=\"upgradeHighlight\">4</style> [Burst] Potency and +2 [Burst] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19119,
+          "simpleDesc": "Inflict 2 [Burst] Potency and +2 [Burst] Count on the target"
+        },
+        {
+          "abilityID": 191191,
+          "simpleDesc": "Inflict 4 [Burst] Potency and +2 [Burst] Count"
+        }
+      ]
+    },
+    {
+      "id": 29119,
+      "name": "Ragged Umbrella++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nWhen winning a Clash using a Skill that inflicts [Burst] Potency or Count, inflict <style=\"upgradeHighlight\">4</style> [Burst] Potency and +2 [Burst] Count against the target (once per turn per Identity)\n\nIf the target doesn't have [Burst], inflict <style=\"upgradeHighlight\">6</style> [Burst] Potency and +<style=\"upgradeHighlight\">3</style> [Burst] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29119,
+          "simpleDesc": "Inflict 4 [Burst] Potency and +2 [Burst] Count on the target"
+        },
+        {
+          "abilityID": 291191,
+          "simpleDesc": "Inflict 6 [Burst] Potency and +3 [Burst] Count"
+        }
+      ]
+    },
+    {
+      "id": 9120,
+      "name": "Deathseeker",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nAttack Skills(except E.G.O Skills) that inflict [Burst] Potency or Count gain Clash Power +1, 'Offense Level' +2, and deal +15% more damage.\n\n\nSingle-Coin Skills gain Clash Power +2, 'Offense Level' +2, and deal +40% more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9120,
+          "simpleDesc": "Clash Power +1, Offense Level +2, and deal +15% more damage"
+        },
+        {
+          "abilityID": 91201,
+          "simpleDesc": "Clash Power +2, Offense Level +2, and deal +40% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9121,
+      "name": "Fragment of Desire",
+      "desc": "Activates when using E.G.O Awakening Skills that inflict [Burst] Potency or Count. (NOT Corrosion Skills)\n\nGain Final Power equal to (Gluttony E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nGluttony E.G.O Awakening Skills: Inflict additional [Burst] Count based on E.G.O grades (ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(# of different E.G.O resource used x 15)% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 9121,
+          "simpleDesc": "Gain Final Power equal to (Gluttony E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91211,
+          "simpleDesc": "Inflict additional [Burst] Count based on E.G.O grades (ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(# of different E.G.O resource used x 15)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9122,
+      "name": "Eldtree Snare",
+      "desc": "Attack Skills(except E.G.O Skills) that inflict [Sinking] Potency, Count, or 'Unique Sinking' deal +5% more damage.\n\nFor Skills with 2- Coins, gain Clash Power +1 and deal +10% more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9122,
+          "simpleDesc": "Attack Skills deal +5% more damage"
+        },
+        {
+          "abilityID": 91221,
+          "simpleDesc": "Gain Clash Power +1 and deal +10% more damage instead"
+        }
+      ]
+    },
+    {
+      "id": 19122,
+      "name": "Eldtree Snare+",
+      "desc": "Attack Skills(except E.G.O Skills) that inflict [Sinking] Potency, Count, or 'Unique Sinking' deal +<style=\"upgradeHighlight\">7.5</style>% more damage.\n\nFor Skills with 2- Coins, gain Clash Power +1 and deal +<style=\"upgradeHighlight\">12.5</style>% more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19122,
+          "simpleDesc": "Attack Skills deal +7.5% more damage"
+        },
+        {
+          "abilityID": 191221,
+          "simpleDesc": "Gain Clash Power +1 and deal +12.5% more damage instead"
+        }
+      ]
+    },
+    {
+      "id": 29122,
+      "name": "Eldtree Snare++",
+      "desc": "Attack Skills(except E.G.O Skills) that inflict [Sinking] Potency, Count, or 'Unique Sinking' deal +<style=\"upgradeHighlight\">10</style>% more damage.\n\nFor Skills with 2- Coins, gain Clash Power +1 and deal +<style=\"upgradeHighlight\">15</style>% more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29122,
+          "simpleDesc": "Attack Skills deal +10% more damage"
+        },
+        {
+          "abilityID": 291221,
+          "simpleDesc": "Gain Clash Power +1 and deal +15% more damage instead"
+        }
+      ]
+    },
+    {
+      "id": 9123,
+      "name": "Rags",
+      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal 5 additional SP(once per turn) upon Clash Win; if at max SP, deal +7.5% more damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP)% more damage; if already at less than -15 SP, deal +15% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9123,
+          "simpleDesc": "At max SP, deal +7.5% more damage"
+        },
+        {
+          "abilityID": 91231,
+          "simpleDesc": "At -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP)% more damage; if already at less than -15 SP, deal +15% more damage"
+        }
+      ]
+    },
+    {
+      "id": 19123,
+      "name": "Rags+",
+      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal <style=\"upgradeHighlight\">6</style> additional SP(once per turn) upon Clash Win; if at max SP, deal +<style=\"upgradeHighlight\">10</style>% more damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP <style=\"upgradeHighlight\">+ 5</style>)% more damage; if already at less than -15 SP, deal +<style=\"upgradeHighlight\">20</style>% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 19123,
+          "simpleDesc": "At max SP, deal +10% more damage"
+        },
+        {
+          "abilityID": 191231,
+          "simpleDesc": "At -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP + 5)% more damage; if already at less than -15 SP, deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 29123,
+      "name": "Rags++",
+      "desc": "Allies with Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' heal <style=\"upgradeHighlight\">7</style> additional SP(once per turn) upon Clash Win; if at max SP, deal +<style=\"upgradeHighlight\">12.5</style>% more damage.\n\nWhen the said allies use a minus Coin Skill(except E.G.O Skills): at -15 or higher SP, reduce SP to -15 and deal +(SP lost <style=\"upgradeHighlight\">+ 10</style>)% more damage; if already at less than -15 SP, deal +<style=\"upgradeHighlight\">25</style>% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 29123,
+          "simpleDesc": "At max SP, deal +12.5% more damage"
+        },
+        {
+          "abilityID": 291231,
+          "simpleDesc": "At -15 or higher SP, reduce SP to -15 and deal +(amount of lost SP + 10)% more damage; if already at less than -15 SP, deal +25% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9124,
+      "name": "Grandeur",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nWhen dealing damage with an Attack Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking' against targets with 10+ ([Sinking] Potency + Count), inflict 2 [Sinking] Potency and +2 [Sinking] Count After Attack (2 times per turn per Identity)\nIn Focused Encounters: inflict 4 [Sinking] Potency and +2 [Sinking] Count instead (once per turn per Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 9124,
+          "simpleDesc": "Inflict 2 [Sinking] Potency and +2 [Sinking] Count against 1 random enemy with the least SP"
+        }
+      ]
+    },
+    {
+      "id": 19124,
+      "name": "Grandeur+",
+      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nWhen dealing damage with an Attack Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking' against targets with <style=\"upgradeHighlight\">8</style>+ ([Sinking] Potency + Count), inflict <style=\"upgradeHighlight\">3</style> [Sinking] Potency and +2 [Sinking] Count After Attack (2 times per turn per Identity)\nIn Focused Encounters: inflict <style=\"upgradeHighlight\">5</style> [Sinking] Potency and +2 [Sinking] Count instead (once per turn per Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 19124,
+          "simpleDesc": "Inflict 3 [Sinking] Potency and +2 [Sinking] Count against 1 random enemy with the least SP"
+        }
+      ]
+    },
+    {
+      "id": 29124,
+      "name": "Grandeur++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nWhen dealing damage with an Attack Skill that inflicts [Sinking] Potency, Count, or 'Unique Sinking' against targets with <style=\"upgradeHighlight\">5</style>+ ([Sinking] Potency + Count), inflict 3 [Sinking] Potency and <style=\"upgradeHighlight\">+3</style> [Sinking] Count After Attack (2 times per turn per Identity)\nIn Focused Encounters: inflict 5 [Sinking] Potency and <style=\"upgradeHighlight\">+3</style> [Sinking] Count instead (once per turn per Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 29124,
+          "simpleDesc": "Inflict 4 [Sinking] Potency and +3 [Sinking] Count against 1 random enemy with the least SP"
+        }
+      ]
+    },
+    {
+      "id": 9125,
+      "name": "Distant Star",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nFor this Encounter, Ally that used Attack Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking' 3 times or more during this Encounter inflicts 1 additional [Sinking] Potency. (this effect applies from the 4th used [Sinking]-applying Skill onward)\n\nIn Focused Encounters: inflicts 2 additional [Sinking] Potency instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9124,
+          "simpleDesc": "Inflict 1 more [Sinking] Potency"
+        }
+      ]
+    },
+    {
+      "id": 9126,
+      "name": "Fragment of Decay",
+      "desc": "Activates when using E.G.O Awakening Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking'. (NOT Corrosion Skills)\n\nGain Final Power equal to (Gloom E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nGloom E.G.O Awakening Skills: Inflict additional [Sinking] Count Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(SP consumed to activate E.G.O Skill x 2.5)% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9126,
+          "simpleDesc": "Activates when using E.G.O Awakening Skills that inflict [Sinking] Potency, Count, or 'Unique Sinking'."
+        },
+        {
+          "abilityID": 91261,
+          "simpleDesc": "Gain Final Power equal to (Gloom E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91262,
+          "simpleDesc": "If conditions are met: Inflict additional [Sinking] Count based on E.G.O grades Before Attack(ZAYIN inflicts +2 Count, TETH inflicts +3 Count, HE inflicts +4 Count, and so on), and deal +(SP consumed to activate E.G.O Skill x 2.5)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9127,
+      "name": "Devil's Share",
+      "desc": "Turn End: apply 1 [Agility] next turn to 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count. (both effects can apply on the same Identity)\n\nIf the ally has Lust Affinity Attack Skills, apply 2 [Agility] instead. (except E.G.O Skills)",
+      "simpleDesc": [
+        {
+          "abilityID": 9127,
+          "simpleDesc": "Apply 1 [Agility] next turn."
+        }
+      ]
+    },
+    {
+      "id": 19127,
+      "name": "Devil's Share+",
+      "desc": "Turn End: apply 1 [Agility] <style=\"upgradeHighlight\">and 1 [AttackUp]</style> next turn to 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count. (both effects can apply on the same Identity)\n\nIf the ally has Lust Affinity Attack Skills, apply 2 [Agility] <style=\"upgradeHighlight\">and 2 [AttackUp]</style> instead. (except E.G.O Skills)",
+      "simpleDesc": [
+        {
+          "abilityID": 19127,
+          "simpleDesc": "Apply 1 [Agility] and 1 [AttackDmgUp] next turn."
+        }
+      ]
+    },
+    {
+      "id": 29127,
+      "name": "Devil's Share++",
+      "desc": "Turn End: apply 1 [Agility], 1 [AttackUp], <style=\"upgradeHighlight\">and 1 [AttackDmgUp]</style> next turn to 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count. (both effects can apply on the same Identity)\n\nIf the ally has Lust Affinity Attack Skills, apply 2 [Agility], 2 [AttackUp], <style=\"upgradeHighlight\">and 2 [AttackDmgUp]</style> instead. (except E.G.O Skills)",
+      "simpleDesc": [
+        {
+          "abilityID": 29127,
+          "simpleDesc": "Apply 2 [Agility] and 1 [AttackDmgUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9128,
+      "name": "Emerald Elytra",
+      "desc": "First Turn Start of a wave: 1 fastest ally gains 3 [Breath] Potency and 2 [Breath] Count.\n\nIf the ally has Envy Affinity Attack Skills, gain 4 [Breath] Potency and 3 [Breath] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9128,
+          "simpleDesc": "1 fastest ally gains 3 [Breath] Potency and 2 [Breath] Count."
+        }
+      ]
+    },
+    {
+      "id": 19128,
+      "name": "Emerald Elytra+",
+      "desc": "First Turn Start of a wave: 1 fastest ally gains <style=\"upgradeHighlight\">4</style> [Breath] Potency and <style=\"upgradeHighlight\">4</style> [Breath] Count.\n\nIf the ally has Envy Affinity Attack Skills, gain <style=\"upgradeHighlight\">5</style> [Breath] Potency and <style=\"upgradeHighlight\">5</style> [Breath] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19128,
+          "simpleDesc": "1 fastest ally gains 4 [Breath] Potency and 4 [Breath] Count."
+        }
+      ]
+    },
+    {
+      "id": 29128,
+      "name": "Emerald Elytra++",
+      "desc": "<style=\"upgradeHighlight\">Turn Start:</style> 1 fastest ally gains 4 [Breath] Potency and 4 [Breath] Count.\n\nIf the ally has Envy Affinity Attack Skills, gain 5 [Breath] Potency and 5 [Breath] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29128,
+          "simpleDesc": "1 fastest ally gains 4 [Breath] Potency and 4 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "id": 9129,
+      "name": "Old Wooden Doll",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nOn Crit, inflict 1 [DefenseDown] next turn. (3 times per turn per Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 9129,
+          "simpleDesc": "Inflict 1 [DefenseDown] next turn"
+        }
+      ]
+    },
+    {
+      "id": 19129,
+      "name": "Old Wooden Doll+",
+      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nOn Crit, inflict 1 [DefenseDown] next turn (<style=\"upgradeHighlight\">4</style> times per turn per Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 19129,
+          "simpleDesc": "Inflict 1 [DefenseDown] next turn"
+        }
+      ]
+    },
+    {
+      "id": 29129,
+      "name": "Old Wooden Doll++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nOn Crit, inflict 1 [DefenseDown] next turn (<style=\"upgradeHighlight\">6</style> times per turn per Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 29129,
+          "simpleDesc": "Inflict 1 Defense Level Down next turn"
+        }
+      ]
+    },
+    {
+      "id": 9130,
+      "name": "Finifugality",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nTurn Start: allies with 10+ (sum of [Breath] Potency and Count) gain Clash Power +1 and 1 [AttackDmgUp].\n\nAt 20+ sum, gain Clash Power +1 and 3 [AttackDmgUp] instead.\n\nAt 40+ sum, gain Clash Power +2 and 3 [AttackDmgUp] instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9130,
+          "simpleDesc": "Ally gains Clash Power +1 and 1 [AttackDmgUp]."
+        },
+        {
+          "abilityID": 91301,
+          "simpleDesc": "Gain Clash Power +1 and 3 [AttackDmgUp]."
+        },
+        {
+          "abilityID": 91302,
+          "simpleDesc": "Gain Clash Power +2 and 3 [AttackDmgUp]."
+        }
+      ]
+    },
+    {
+      "id": 9131,
+      "name": "Fragment of Conceit",
+      "desc": "Activates when using E.G.O Awakening Skills that apply or gain [Breath] Potency or Count. (NOT Corrosion Skills)\n\nGain Final Power equal to (Pride E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nPride E.G.O Awakening Skills: gain additional [Breath] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(sum of all E.G.O resources consumed x 8)% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9131,
+          "simpleDesc": "Gain Final Power equal to (Pride E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91311,
+          "simpleDesc": "Pride E.G.O Awakening Skills: gain additional [Breath] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(sum of all E.G.O resources consumed x 8)% more damage."
+        }
+      ]
+    },
+    {
+      "id": 9132,
+      "name": "UPS System",
+      "desc": "Turn End: If at less than 3 [Charge] Count, gain +3 [Charge] Count next Turn Start.\n\nTurn End: If at 3+ [Charge] Count, gain 1 [AttackDmgUp] next Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 9132,
+          "simpleDesc": "Gain +3 [Charge] Count next Turn Start"
+        },
+        {
+          "abilityID": 91321,
+          "simpleDesc": "Gain 1 [AttackDmgUp] next Turn Start"
+        }
+      ]
+    },
+    {
+      "id": 19132,
+      "name": "UPS System+",
+      "desc": "Turn End: If at less than <style=\"upgradeHighlight\">4</style> [Charge] Count, gain +3 [Charge] Count next Turn Start.\n\nTurn End: If at <style=\"upgradeHighlight\">4+</style> [Charge] Count, gain 1 [AttackDmgUp] next Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 19132,
+          "simpleDesc": "Gain +3 [Charge] Count next Turn Start"
+        },
+        {
+          "abilityID": 191321,
+          "simpleDesc": "Gain 1 [AttackDmgUp] next Turn Start"
+        }
+      ]
+    },
+    {
+      "id": 29132,
+      "name": "UPS System++",
+      "desc": "Turn End: If at less than <style=\"upgradeHighlight\">5</style> [Charge] Count, gain <style=\"upgradeHighlight\">+4</style> [Charge] Count next Turn Start.\n\nTurn End: If at <style=\"upgradeHighlight\">5+</style> [Charge] Count, gain <style=\"upgradeHighlight\">2</style> [AttackDmgUp] next Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 29132,
+          "simpleDesc": "Gain +4 [Charge] Count next Turn Start"
+        },
+        {
+          "abilityID": 291321,
+          "simpleDesc": "Gain 2 [AttackDmgUp] next Turn Start"
+        }
+      ]
+    },
+    {
+      "id": 9133,
+      "name": "Uncapped Defibrilator",
+      "desc": "Turn End: heal HP and SP equal to the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn.\n\nIf this unit has 50%- remaining HP, boost the heal amount by x1.5.",
+      "simpleDesc": [
+        {
+          "abilityID": 9133,
+          "simpleDesc": "Heal HP and SP equal to the amount of [Charge] Count consumed"
+        }
+      ]
+    },
+    {
+      "id": 19133,
+      "name": "Uncapped Defibrilator+",
+      "desc": "Turn End: heal HP and SP equal to <style=\"upgradeHighlight\">(the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn + 1)</style>.\n\nIf this unit has 50%- remaining HP, boost the heal amount by <style=\"upgradeHighlight\">x2</style>.",
+      "simpleDesc": [
+        {
+          "abilityID": 19133,
+          "simpleDesc": "Heal HP and SP equal to (the amount of [Charge] Count consumed + 1)"
+        }
+      ]
+    },
+    {
+      "id": 29133,
+      "name": "Uncapped Defibrilator++",
+      "desc": "Turn End: heal HP and SP equal to (the sum of [Charge] Count and 'Unique Charge' consumed by Attack Skills this turn <style=\"upgradeHighlight\">+ 2</style>).\n\nIf this unit has <style=\"upgradeHighlight\">75</style>%- remaining HP, boost the heal amount by x2.",
+      "simpleDesc": [
+        {
+          "abilityID": 29133,
+          "simpleDesc": "Heal HP and SP equal to (the amount of [Charge] Count consumed + 2)"
+        }
+      ]
+    },
+    {
+      "id": 9134,
+      "name": "Patrolling Flashlight",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals +10% more damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply 2 [ChargeForceField] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9134,
+          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +10% more damage"
+        },
+        {
+          "abilityID": 91341,
+          "simpleDesc": "Apply 2 [ChargeForceField] next turn"
+        }
+      ]
+    },
+    {
+      "id": 19134,
+      "name": "Patrolling Flashlight+",
+      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals <style=\"upgradeHighlight\">+15</style>% more damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply <style=\"upgradeHighlight\">3</style> [ChargeForceField] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 19134,
+          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +15% more damage"
+        },
+        {
+          "abilityID": 191341,
+          "simpleDesc": "Apply 3 [ChargeForceField] next turn"
+        }
+      ]
+    },
+    {
+      "id": 29134,
+      "name": "Patrolling Flashlight++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nTurn Start: if the affected Identity has a Skill that gains or consumes [Charge] Count or 'Unique Charge', the Identity's Skill 1 gains Clash Power +1 and deals <style=\"upgradeHighlight\">+25</style>% more damage while that unit has [ChargeForceField].\n\nTurn End: if the affected Identity does not have [ChargeForceField], apply <style=\"upgradeHighlight\">4</style> [ChargeForceField] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 29134,
+          "simpleDesc": "Skill 1 gains Clash Power +1 and deals +25% more damage"
+        },
+        {
+          "abilityID": 291341,
+          "simpleDesc": "Apply 4 [ChargeForceField] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9135,
+      "name": "Imitative Generator",
+      "desc": "[Effects apply only to #1, #2 Deployed Identities]\n\nActivates when the unit has 10+ ([Charge] Count + 'Unique Charge') at Turn Start.\n\nCoin Power +1 to Skill 3 that gains or consumes [Charge] Count or 'Unique Charge'.\n\nIf the said Skill has less than 5 Base Power, deal +25% more damage; if it has 5+ Base Power, gain an additional Coin Power +1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9135,
+          "simpleDesc": "Coin Power +1 to Skill 3 that consumes [Charge] Count or 'Unique Charge'"
+        },
+        {
+          "abilityID": 91351,
+          "simpleDesc": "Deal +25% more damage or gain an additional Coin Power +1"
+        }
+      ]
+    },
+    {
+      "id": 9136,
+      "name": "Fragment of Friction",
+      "desc": "Activates when using E.G.O Awakening Skills that gain or consume [Charge] Count or 'Unique Charge'. (NOT Corrosion Skills)\n\nGain Final Power equal to (Envy E.G.O resource + sum of other E.G.O resources/3) consumed.\n\nEnvy E.G.O Awakening Skills: gain additional [Charge] Count Before Attack(ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +(([Charge] Count on self + 'Unique Charge') x 5)% more damage. (200% max)",
+      "simpleDesc": [
+        {
+          "abilityID": 9136,
+          "simpleDesc": "Gain Final Power equal to (Envy E.G.O resource + sum of other E.G.O resources/3) consumed."
+        },
+        {
+          "abilityID": 91361,
+          "simpleDesc": "Gain additional [Charge] Count (ZAYIN gains +2 Count, TETH gains +3 Count, HE gains +4 Count, and so on), and deal +([Charge] Count on self x 5)% more damage."
+        }
+      ]
+    },
+    {
+      "id": 9137,
+      "name": "Scalpel",
+      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nTurn End: Identity with Slash Attack Skills gain (# of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 3 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "simpleDesc": [
+        {
+          "abilityID": 9137,
+          "simpleDesc": "Gain [Agility] next turn"
+        }
+      ]
+    },
+    {
+      "id": 19137,
+      "name": "Scalpel+",
+      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nTurn End: Identity with Slash Attack Skills gain (<style=\"upgradeHighlight\">1 +</style> # of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 4 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "simpleDesc": [
+        {
+          "abilityID": 19137,
+          "simpleDesc": "Gain [Agility] next turn"
+        }
+      ]
+    },
+    {
+      "id": 29137,
+      "name": "Scalpel++",
+      "desc": "[Effects apply only to the #4<style=\"upgradeHighlight\">, #5</style> Deployed Identities]\n\nTurn End: Identity with Slash Attack Skills gain (1 + # of Slash Attack Skills they have) [Agility] next turn. (e.g. An Identity with S1 Slash, S2 Slash, and S3 Slash would gain 4 [Agility] next turn. E.G.O Skills and Counters don't count)",
+      "simpleDesc": [
+        {
+          "abilityID": 29137,
+          "simpleDesc": "Gain [Agility] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9138,
+      "name": "Deceptive Accord",
+      "desc": "[Effects apply only to #5 Deployed Identity]\n\nIf there is a 3+ Speed difference between this unit and the enemy targeted by this unit, deal +15% more damage with Slash Skills.",
+      "simpleDesc": [
+        {
+          "abilityID": 9138,
+          "simpleDesc": "Slash Skills deal +15% more damage"
+        }
+      ]
+    },
+    {
+      "id": 19138,
+      "name": "Deceptive Accord+",
+      "desc": "[Effects apply only to #5 Deployed Identity]\n\nIf there is a 3+ Speed difference between this unit and the enemy targeted by this unit, deal <style=\"upgradeHighlight\">+20%</style> more damage with Slash Skills.",
+      "simpleDesc": [
+        {
+          "abilityID": 19138,
+          "simpleDesc": "Slash Skills deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 29138,
+      "name": "Deceptive Accord++",
+      "desc": "[Effects apply only to #5 <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nIf there is a <style=\"upgradeHighlight\">2+</style> Speed difference between this unit and the enemy targeted by this unit, deal +20% more damage with Slash Skills.",
+      "simpleDesc": [
+        {
+          "abilityID": 29138,
+          "simpleDesc": "Slash Skills deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9139,
+      "name": "Tailor's Scissors",
+      "desc": "[Effects apply only to #6 Deployed Identity]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 and deal +10% more damage.\n\nSingle-Coin Skills gain Clash Power +1 and deal +20% more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9139,
+          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +10% more damage"
+        },
+        {
+          "abilityID": 91391,
+          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 19139,
+      "name": "Tailor's Scissors+",
+      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#4</style>, #6 Deployed Identities]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 <style=\"upgradeHighlight\">and deal +15% more damage</style>.\n\nSingle-Coin Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+25%</style> more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19139,
+          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +15% more damage"
+        },
+        {
+          "abilityID": 191391,
+          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +25% more damage"
+        }
+      ]
+    },
+    {
+      "id": 29139,
+      "name": "Tailor's Scissors++",
+      "desc": "[Effects apply only to #4, #6 Deployed Identities]\n\nSlash Skills(except E.G.O Skills) with 2- Coins gain Clash Power +1 <style=\"upgradeHighlight\">and deal +20% more damage</style>.\n\nSingle-Coin Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+30%</style> more damage instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29139,
+          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +20% more damage"
+        },
+        {
+          "abilityID": 29139,
+          "simpleDesc": "Slash Skills gain Clash Power +1 and deal +30% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9140,
+      "name": "Resolution",
+      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain 1 [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal. (activates immediately upon entering an Encounter)",
+      "simpleDesc": [
+        {
+          "abilityID": 9140,
+          "simpleDesc": "All allies with 2 or more Slash Skills gain Clash Power"
+        },
+        {
+          "abilityID": 91401,
+          "simpleDesc": "HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal."
+        }
+      ]
+    },
+    {
+      "id": 19140,
+      "name": "Resolution+",
+      "desc": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain <style=\"upgradeHighlight\">2</style> [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. faction Identities' HP gets capped to <style=\"upgradeHighlight\">50%</style> of Max HP. In return, take <style=\"upgradeHighlight\">75% less damage and receive 75%</style> reduced heal. (activates immediately upon entering an Encounter)",
+      "simpleDesc": [
+        {
+          "abilityID": 19140,
+          "simpleDesc": "All allies with 2 or more Slash Skills gain Clash Power"
+        },
+        {
+          "abilityID": 191401,
+          "simpleDesc": "HP gets capped to 50% of Max HP. In return, take 75% less damage and receive 75% reduced heal."
+        }
+      ]
+    },
+    {
+      "id": 29140,
+      "name": "Resolution++",
+      "desc": "All allies with 2 or more Slash Skills: gain Clash Power +1 on the first turn, and gain 2 [Agility] & <style=\"upgradeHighlight\">Final Power +1</style> starting from the second turn.\n\nShi Assoc. faction Identities' max heal ceiling gets capped to <style=\"upgradeHighlight\">49%</style> of Max HP. In return, take 75% less damage and receive 75% reduced heal. (activates immediately upon entering an Encounter)",
+      "simpleDesc": [
+        {
+          "abilityID": 29140,
+          "simpleDesc": "All allies with 2 or more Slash Skills gain Clash Power"
+        },
+        {
+          "abilityID": 291401,
+          "simpleDesc": "HP gets capped to 49% of Max HP. In return, take 75% less damage and receive 75% reduced heal."
+        }
+      ]
+    },
+    {
+      "id": 9141,
+      "name": "Moment of Sentencing",
+      "desc": "[Effects apply only to #3, #4 Deployed Identities]\n\nUnopposed Slash Skills deal +10% more damage\n\nClash Win: Slash Skills deal +(40/# of remaining Coins)% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 9141,
+          "simpleDesc": "Slash Skills deal +10% more damage"
+        },
+        {
+          "abilityID": 91411,
+          "simpleDesc": "Slash Skills deal +(40/# of remaining Coins)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 19141,
+      "name": "Moment of Sentencing+",
+      "desc": "[Effects apply only to #3, #4, and <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nUnopposed Slash Skills deal +10% more damage\n\nClash Win: Slash Skills deal +(40/# of remaining Coins)% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 19141,
+          "simpleDesc": "Slash Skills deal +10% more damage"
+        },
+        {
+          "abilityID": 191411,
+          "simpleDesc": "Slash Skills deal +(40/# of remaining Coins)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 29141,
+      "name": "Moment of Sentencing++",
+      "desc": "[Effects apply only to #3, #4, #5, and <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nUnopposed Slash Skills deal <style=\"upgradeHighlight\">+12.5%</style> more damage\n\nClash Win: Slash Skills deal +(<style=\"upgradeHighlight\">50</style>/# of remaining Coins)% more damage",
+      "simpleDesc": [
+        {
+          "abilityID": 29141,
+          "simpleDesc": "Slash Skills deal +12.5% more damage"
+        },
+        {
+          "abilityID": 291411,
+          "simpleDesc": "Slash Skills deal +(50/# of remaining Coins)% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9142,
+      "name": "Sundered Memory",
+      "desc": "[Effects apply only to #3 Deployed Identity]\n\nSlash Attack Skills(except E.G.O Skills) gain Clash Power +1 and Final Power +1.\n\nFor Slash Attack Skills with 2- Coins, gain Final Power +3 and deal +20% more damage instead.\n\nTurn End: If at less than 50% HP, gain 4 [SlashDamageUp] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9142,
+          "simpleDesc": "Clash Power +1, Final Power +1"
+        },
+        {
+          "abilityID": 91421,
+          "simpleDesc": "Final Power +3, deal +20% more damage"
+        },
+        {
+          "abilityID": 91422,
+          "simpleDesc": "Gain 4 [SlashDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9143,
+      "name": "Carpenter's Nail",
+      "desc": "[Effects apply only to #4 Deployed Identity]\n\nIf this unit has 2+ Pierce Attack Skills, gain 1 [PenetrateDamageUp] at Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 9143,
+          "simpleDesc": "Gain 1 [PenetrateDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 19143,
+      "name": "Carpenter's Nail+",
+      "desc": "[Effects apply only to the #4 Deployed Identity]\n\nIf this unit has 2+ Pierce Attack Skills, gain <style=\"upgradeHighlight\">2</style> [PenetrateDamageUp] at Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 19143,
+          "simpleDesc": "Gain 2 [PenetrateDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 29143,
+      "name": "Carpenter's Nail++",
+      "desc": "[Effects apply only to #4, <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nIf this unit has 2+ Pierce Attack Skills, gain 2 [PenetrateDamageUp] at Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 29143,
+          "simpleDesc": "Gain 2 [PenetrateDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 9144,
+      "name": "Once, A Blessing",
+      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (once per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] next turn. (once per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 9144,
+          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+        },
+        {
+          "abilityID": 91441,
+          "simpleDesc": "Gain 1 additional [Agility] next turn"
+        }
+      ]
+    },
+    {
+      "id": 19144,
+      "name": "Once, A Blessing+",
+      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#5</style>, #6 Deployed Identities]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (once per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">1 additional [PenetrateDamageUp]</style> next turn. (once per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 19144,
+          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+        },
+        {
+          "abilityID": 191441,
+          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 29144,
+      "name": "Once, A Blessing++",
+      "desc": "[Effects apply only to #5, #6 Deployed Identities]\n\nWhen hitting an enemy with a Pierce Skill, gain 1 [Agility] and 1 [PenetrateDamageUp] next turn. (<style=\"upgradeHighlight\">2 times</style> per turn)\n\nWhen defeating an enemy with the said Skill, gain 1 additional [Agility] and <style=\"upgradeHighlight\">2</style> additional [PenetrateDamageUp] next turn. (once per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 29144,
+          "simpleDesc": "Gain 1 [Agility] and 1 [PenetrateDamageUp] next turn"
+        },
+        {
+          "abilityID": 291441,
+          "simpleDesc": "Gain 1 [Agility] and 2 [PenetrateDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9145,
+      "name": "Torn Bandolier",
+      "desc": "Pierce Skills gain Clash Power +1\n\nSkills that consume [Bullet] deal +(40/# of Coins)% more damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 9145,
+          "simpleDesc": "Pierce Skills gain Clash Power +1"
+        },
+        {
+          "abilityID": 91451,
+          "simpleDesc": "Skills deal +(40/# of Coins)% more damage"
+        },
+        {
+          "abilityID": 91452,
+          "simpleDesc": "Next Turn Start: gain 2 [Bullet] (once per Encounter)"
+        }
+      ]
+    },
+    {
+      "id": 19145,
+      "name": "Torn Bandolier+",
+      "desc": "Pierce Skills gain Clash Power +1 <style=\"upgradeHighlight\">and deal +5% more damage</style>\n\nSkills that consume [Bullet] deal +(<style=\"upgradeHighlight\">50</style>/# of Coins)% more damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 19145,
+          "simpleDesc": "Pierce Skills gain Clash Power +1 and deal +5% more damage"
+        },
+        {
+          "abilityID": 191451,
+          "simpleDesc": "Skills deal +(40/# of Coins)% more damage"
+        },
+        {
+          "abilityID": 191452,
+          "simpleDesc": "Next Turn Start: gain 2 [Bullet] (once per Encounter)"
+        }
+      ]
+    },
+    {
+      "id": 29145,
+      "name": "Torn Bandolier++",
+      "desc": "Pierce Skills gain Clash Power +1 and deal <style=\"upgradeHighlight\">+10%</style> more damage\n\nSkills that consume [Bullet] deal +(<style=\"upgradeHighlight\">60</style>/# of Coins)% more damage\n\nIf the unit is out of [Bullet], gain 2 [Bullet] at the next Turn Start (once per Encounter for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 29145,
+          "simpleDesc": "Pierce Skills gain Clash Power +1 and deal +10% more damage"
+        },
+        {
+          "abilityID": 291451,
+          "simpleDesc": "Skills deal +(40/# of Coins)% more damage"
+        },
+        {
+          "abilityID": 291452,
+          "simpleDesc": "Next Turn Start: gain 2 [Bullet] (once per Encounter)"
+        }
+      ]
+    },
+    {
+      "id": 9146,
+      "name": "Keenbranch",
+      "desc": "[Effects apply only to #3, #4 Deployed Identities]\n\nIn a Clash, Clash Power +1; Pierce Skills deal +20% more damage.\n\nIn an unopposed attack, Pierce Skills deal +10% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9146,
+          "simpleDesc": "In a Clash, Clash Power +1; Pierce Skills deal +20% more damage"
+        },
+        {
+          "abilityID": 91461,
+          "simpleDesc": "In an unopposed attack, Pierce Skills deal +10% more damage."
+        }
+      ]
+    },
+    {
+      "id": 19146,
+      "name": "Keenbranch+",
+      "desc": "[Effects apply only to #3, #4, <style=\"upgradeHighlight\">and #5</style> Deployed Identities]\n\nIn a Clash, Clash Power +1; Pierce Skills deal +20% more damage.\n\nIn an unopposed attack, Pierce Skills deal +10% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 19146,
+          "simpleDesc": "In a Clash, Clash Power +1; Pierce Skills deal +20% more damage"
+        },
+        {
+          "abilityID": 191461,
+          "simpleDesc": "In an unopposed attack, Pierce Skills deal +10% more damage."
+        }
+      ]
+    },
+    {
+      "id": 29146,
+      "name": "Keenbranch++",
+      "desc": "[Effects apply only to #3, #4, #5, <style=\"upgradeHighlight\">and #6</style> Deployed Identities]\n\nIn a Clash, Clash Power +1; Pierce Skills deal <style=\"upgradeHighlight\">+25%</style> more damage.\n\nIn an unopposed attack, Pierce Skills deal <style=\"upgradeHighlight\">+12.5%</style> more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 29146,
+          "simpleDesc": "In a Clash, Clash Power +1; Pierce Skills deal +25% more damage"
+        },
+        {
+          "abilityID": 291461,
+          "simpleDesc": "In an unopposed attack, Pierce Skills deal +12.5% more damage."
+        }
+      ]
+    },
+    {
+      "id": 9147,
+      "name": "Punctured Memory",
+      "desc": "[Effects apply only to #3 Deployed Identity]\n\nPierce Attack Skills(except E.G.O Skills) gain Clash Power +2 and deal +15% more damage.\n\nWhen winning a Clash with a Pierce Attack Skill, deal +(2.5(# of Clashes + # of remaining Coins))% more damage. (max 35%)\n\nTurn End: if this unit dealt 15+ HP damage by winning a Clash with a Pierce Attack Skill this turn, gain 4 [PenetrateDamageUp] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9147,
+          "simpleDesc": "Pierce Skills gain Clash Power +2 and deals +15% more damage"
+        },
+        {
+          "abilityID": 91471,
+          "simpleDesc": "Clash Win: deal +(2.5(# of Clashes + # of remaining Coins))% more damage. (max 35%)"
+        },
+        {
+          "abilityID": 91472,
+          "simpleDesc": "Gain 4 [PenetrateDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9148,
+      "name": "Burial Curse",
+      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen winning a Clash with a Blunt Skill, gain 1 [Agility] next turn (2 times max)\n\nTurn End: If this unit failed to deal any damage to the enemies this turn, gain 3 [Agility] next turn instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9148,
+          "simpleDesc": "Gain 1 [Agility] next turn"
+        },
+        {
+          "abilityID": 91481,
+          "simpleDesc": "Gain 3 [Agility] next turn"
+        }
+      ]
+    },
+    {
+      "id": 19148,
+      "name": "Burial Curse+",
+      "desc": "[Effects apply only to #6 Deployed Identity]\n\nWhen <style=\"upgradeHighlight\">using</style> a Blunt Skill, gain 1 [Agility] next turn (2 times max)\n\nTurn End: If this unit failed to deal any damage to the enemies this turn, gain 3 [Agility] next turn instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19148,
+          "simpleDesc": "Gain 1 [Agility] next turn"
+        },
+        {
+          "abilityID": 191481,
+          "simpleDesc": "Gain 3 [Agility] next turn"
+        }
+      ]
+    },
+    {
+      "id": 29148,
+      "name": "Burial Curse++",
+      "desc": "[Effects apply only to <style=\"upgradeHighlight\">#4</style>, #6 Deployed Identities]\n\nWhen using a Blunt Skill, gain 1 [Agility] and <style=\"upgradeHighlight\">1 [HitDamageUp]</style> next turn (2 times max)\n\nTurn End: If this unit failed to deal any damage to the enemies this turn, gain 3 [Agility] and <style=\"upgradeHighlight\">2 [HitDamageUp]</style> next turn instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29148,
+          "simpleDesc": "Gain 1 [Agility] and 1 [HitDamageUp] next turn"
+        },
+        {
+          "abilityID": 291481,
+          "simpleDesc": "Gain 3 [Agility] and 2 [HitDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9149,
+      "name": "Compression Bandage",
+      "desc": "[Effects apply only to #5 Deployed Identity]\n\nWhen hitting an enemy with a Blunt Skill, deal 3 bonus Blunt damage.\n\nGloom Affinity Attack Skill: heal an additional 3 HP as well.",
+      "simpleDesc": [
+        {
+          "abilityID": 9149,
+          "simpleDesc": "Inflict 3 bonus Blunt damage"
+        },
+        {
+          "abilityID": 91491,
+          "simpleDesc": "Heal additional 3 HP"
+        }
+      ]
+    },
+    {
+      "id": 19149,
+      "name": "Compression Bandage+",
+      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~5</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">4</style> HP as well.",
+      "simpleDesc": [
+        {
+          "abilityID": 19149,
+          "simpleDesc": "Inflict 3~5 bonus Blunt damage"
+        },
+        {
+          "abilityID": 191491,
+          "simpleDesc": "Heal additional 4 HP"
+        }
+      ]
+    },
+    {
+      "id": 29149,
+      "name": "Compression Bandage++",
+      "desc": "[Effects apply only to #5, <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nWhen hitting an enemy with a Blunt Skill, deal <style=\"upgradeHighlight\">3~7</style> Blunt bonus Damage.\n\nGloom Affinity Attack Skill: heal an additional <style=\"upgradeHighlight\">6</style> HP as well.",
+      "simpleDesc": [
+        {
+          "abilityID": 29149,
+          "simpleDesc": "Inflict 3~7 bonus Blunt damage"
+        },
+        {
+          "abilityID": 291491,
+          "simpleDesc": "Heal additional 6 HP."
+        }
+      ]
+    },
+    {
+      "id": 9150,
+      "name": "Temporal Bridle",
+      "desc": "Turn Start: units with a Blunt Attack Skill(except E.G.O Skills) gain 1 [AttackUp].\n\nUnits with 2+ Blunt Attack Skills gain 1 [AttackUp] and 1 [HitDamageUp] instead.\n\nUnits with 2+ Blunt Attack Skills that use Minus Coins gain 2 [AttackUp] and 2 [HitDamageUp] instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9150,
+          "simpleDesc": "Gain 1 [AttackUp]"
+        },
+        {
+          "abilityID": 91501,
+          "simpleDesc": "Gain 1 [AttackUp] and 1 [HitDamageUp]"
+        },
+        {
+          "abilityID": 91502,
+          "simpleDesc": "Gain 2 [AttackUp] and 2 [HitDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 19150,
+      "name": "Temporal Bridle+",
+      "desc": "Turn Start: Units with Blunt Attack Skills(except E.G.O Skills) gain <style=\"upgradeHighlight\">2</style> [AttackUp] at Turn Start.\n\nUnits with 2+ Blunt Attack Skills gain <style=\"upgradeHighlight\">2</style> [AttackUp] and 1 [HitDamageUp] instead.\n\nUnits with 2+ Blunt Attack Skills that use Minus Coins gain <style=\"upgradeHighlight\">3</style> [AttackUp] and 2 [HitDamageUp] instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19150,
+          "simpleDesc": "Gain 2 [AttackUp]"
+        },
+        {
+          "abilityID": 191501,
+          "simpleDesc": "Gain 2 [AttackUp] and 1 [HitDamageUp]"
+        },
+        {
+          "abilityID": 191502,
+          "simpleDesc": "Gain 3 [AttackUp] and 2 [HitDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 29150,
+      "name": "Temporal Bridle++",
+      "desc": "Turn Start: Units with Blunt Attack Skills(except E.G.O Skills) gain 2 [AttackUp] and <style=\"upgradeHighlight\">1 [HitDamageUp]</style> at Turn Start.\n\nUnits with 2+ Blunt Attack Skills gain 2 [AttackUp] and <style=\"upgradeHighlight\">2</style> [HitDamageUp] instead.\n\nUnits with 2+ Blunt Attack Skills that use Minus Coins gain 3 [AttackUp] and <style=\"upgradeHighlight\">3</style> [HitDamageUp] instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29150,
+          "simpleDesc": "Gain 2 [AttackUp] and 1 [HitDamageUp]"
+        },
+        {
+          "abilityID": 291501,
+          "simpleDesc": "Gain 2 [AttackUp] and 2 [HitDamageUp]"
+        },
+        {
+          "abilityID": 291502,
+          "simpleDesc": "Gain 3 [AttackUp] and 3 [HitDamageUp]"
+        }
+      ]
+    },
+    {
+      "id": 9151,
+      "name": "Clasped Sculpture",
+      "desc": "[Effects apply only to #3, #4 Deployed Identities]\n\nIf there are 2+ remaining Coins after a Clash using a Blunt Skill, deal +10% more damage; if there are 3+ remaining Coins, deal +20% more damage; if there are 4+ remaining Coins, deal +40% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 9151,
+          "simpleDesc": "Conditional damage increase"
+        }
+      ]
+    },
+    {
+      "id": 19151,
+      "name": "Clasped Sculpture+",
+      "desc": "[Effects apply only to #3, #4, and <style=\"upgradeHighlight\">#5</style> Deployed Identities]\n\nIf there are 2+ remaining Coins after a Clash using a Blunt Skill, deal +10% more damage; if there are 3+ remaining Coins, deal +20% more damage; if there are 4+ remaining Coins, deal +40% more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 19151,
+          "simpleDesc": "Conditional damage increase"
+        }
+      ]
+    },
+    {
+      "id": 29151,
+      "name": "Clasped Sculpture++",
+      "desc": "[Effects apply only to #3, #4, #5, and <style=\"upgradeHighlight\">#6</style> Deployed Identities]\n\nIf there are 2+ remaining Coins after a Clash using a Blunt Skill, deal <style=\"upgradeHighlight\">+12.5%</style> more damage; if there are 3+ remaining Coins, deal <style=\"upgradeHighlight\">+25%</style> more damage; if there are 4+ remaining Coins, deal <style=\"upgradeHighlight\">+50%</style> more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 29151,
+          "simpleDesc": "Conditional damage increase"
+        }
+      ]
+    },
+    {
+      "id": 9152,
+      "name": "Crushed memory",
+      "desc": "[Effects apply only to #3 Deployed Identity]\n\nBlunt Attack Skills gain Clash Power +(# of Coins/3): Plus Coins gain additional Coin Power +1, Minus Coins gain additional Coin Power -1. (except E.G.O Skills; rounded up)\n\nIf, in this Encounter, this unit lost even a single Clash using a Blunt Attack Skill, upgrade the above effect to the following: Blunt Attack Skills gain Clash Power +(# of Coins/2): Plus Coins gain additional Coin Power +2, Minus Coins gain additional Coin power -2.\n\nTurn End: If this unit used a Blunt Attack Skill with 3+ Coins this turn, gain 4 [HitDamageUp] next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9152,
+          "simpleDesc": "Clash Power +(# of Coins/3): Plus Coins gain additional Coin Power +1, Minus Coins gain additional Coin Power -1"
+        },
+        {
+          "abilityID": 91521,
+          "simpleDesc": "Clash Power +(# of Coins/2): Plus Coins gain additional Coin Power +2, Minus Coins gain additional Coin Power -2"
+        },
+        {
+          "abilityID": 91522,
+          "simpleDesc": "Gain 4 [HitDamageUp] next turn"
+        }
+      ]
+    },
+    {
+      "id": 9153,
+      "name": "Oracle",
+      "desc": "Turn End: convert 1 most-owned random E.G.O resource into 1 least-owned random E.G.O resource.",
+      "simpleDesc": [
+        {
+          "abilityID": 9153,
+          "simpleDesc": "Convert to 1 random E.G.O resource"
+        }
+      ]
+    },
+    {
+      "id": 9154,
+      "name": "Imposed Weight",
+      "desc": "If there are no other allies remaining at Turn End, consume 5% of the remaining HP next turn to gain 2 [Enhancement]. (does not activate at 25%- HP)\n\nIf this unit has 50%- HP, gain 3 [Enhancement] instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9154,
+          "simpleDesc": "Consume 5% of the remaining HP next turn to gain 2 [Enhancement]"
+        }
+      ]
+    },
+    {
+      "id": 19086,
+      "name": "Reverberation+",
+      "desc": "Turn End: Inflict 2 [Binding] and <style=\"upgradeHighlight\">2 [DefenseDown]</style> to enemies (for Abnormalities, their Parts) with <style=\"upgradeHighlight\">8</style>+ [Vibration] Potency.\n\nIf the target has <style=\"upgradeHighlight\">15</style>+ [Vibration] Potency, apply 2 [Binding], 1 [Paralysis], <style=\"upgradeHighlight\">and 2 [DefenseDown]</style> instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 19086,
+          "simpleDesc": "Inflict 2 [Binding] and 2 [DefenseDown]."
+        },
+        {
+          "abilityID": 190861,
+          "simpleDesc": "Inflict 2 [Binding], 1 [Paralysis], and 2 [DefenseDown]."
+        }
+      ]
+    },
+    {
+      "id": 29086,
+      "name": "Reverberation++",
+      "desc": "Turn End: Inflict 2 [Binding] and <style=\"upgradeHighlight\">3</style> [DefenseDown] to enemies (for Abnormalities, their Parts) with <style=\"upgradeHighlight\">5</style>+ [Vibration] Potency.\n\nIf the target has <style=\"upgradeHighlight\">10</style>+ [Vibration] Potency, apply 2 [Binding], 1 [Paralysis], and <style=\"upgradeHighlight\">4</style> [DefenseDown] instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 29086,
+          "simpleDesc": "Inflict 2 [Binding] and 3 [DefenseDown]."
+        },
+        {
+          "abilityID": 290861,
+          "simpleDesc": "Inflict 2 [Binding], 1 [Paralysis], and 4 [DefenseDown]."
+        }
+      ]
+    },
+    {
+      "id": 19117,
+      "name": "Smoking Gunpowder+",
+      "desc": "[Effects apply only to #1, #2, and <style=\"upgradeHighlight\">#3</style> Deployed Identities]\n\nTurn End: If an Attack Skill inflicting [Burst] Potency or Count has been used at least once this turn, gain 1 [Agility] next turn.\n\nIf this unit's Speed is at <style=\"upgradeHighlight\">5</style>+, Attack Skills inflicting [Burst] Potency or Count deal <style=\"upgradeHighlight\">+15%</style> more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 19117,
+          "simpleDesc": "If conditions are met: gain 1 [Agility] next turn."
+        },
+        {
+          "abilityID": 191171,
+          "simpleDesc": "If conditions are met: deal +15% more damage"
+        }
+      ]
+    },
+    {
+      "id": 29117,
+      "name": "Smoking Gunpowder++",
+      "desc": "[Effects apply only to #1, #2, and #3 Deployed Identities]\n\nTurn End: If an Attack Skill inflicting [Burst] Potency or Count has been used at least once this turn, gain <style=\"upgradeHighlight\">1~2</style> [Agility] next turn.\n\nIf this unit's Speed is at <style=\"upgradeHighlight\">4</style>+, Attack Skills inflicting [Burst] Potency or Count deal <style=\"upgradeHighlight\">+20%</style> more damage.",
+      "simpleDesc": [
+        {
+          "abilityID": 29117,
+          "simpleDesc": "If conditions are met: gain 1~2 [Agility] next turn."
+        },
+        {
+          "abilityID": 291171,
+          "simpleDesc": "If conditions are met: deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9155,
+      "name": "Decamillennial Stewpot",
+      "desc": "Skills that inflict [Combustion] Potency, Count, or 'Unique Burn' gain Clash Power +1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9155,
+          "simpleDesc": "Clash Power +1"
+        }
+      ]
+    },
+    {
+      "id": 9157,
+      "name": "Secret Cookbook",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Combustion] Potency, Count, or 'Unique Burn' effects. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nSkills that inflict [Combustion] Potency, Count, or 'Unique Burn': Final Power +1\n\nOn Clash Win with Skills that inflict [Combustion] Potency, Count, or 'Unique Burn': inflict ((# of remaining Coins / 2) +1) [Combustion] Potency on the target",
+      "simpleDesc": [
+        {
+          "abilityID": 9157,
+          "simpleDesc": "Skill Final Power +1"
+        },
+        {
+          "abilityID": 91571,
+          "simpleDesc": "Inflict ((# of remaining Coins / 2) +1) [Combustion] Potency"
+        }
+      ]
+    },
+    {
+      "id": 9159,
+      "name": "Millarca",
+      "desc": "Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed' gain Clash Power +1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9159,
+          "simpleDesc": "Clash Power +1"
+        }
+      ]
+    },
+    {
+      "id": 9161,
+      "name": "Devotion",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Laceration] Potency, Count, or 'Unique Bleed' effects. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\n1 ally with the fastest Speed) Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed': Coin Power +1, damage dealt +50%\n\nFinal Power +1 to all Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed'.",
+      "simpleDesc": [
+        {
+          "abilityID": 9161,
+          "simpleDesc": "Coin Power +1, deal +50% more damage"
+        },
+        {
+          "abilityID": 91611,
+          "simpleDesc": "Skills that inflict [Laceration] Potency, Count, or 'Unique Bleed' gain Final Power +1."
+        }
+      ]
+    },
+    {
+      "id": 9165,
+      "name": "Interlocked Cogs",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Vibration] Potency, Count, or 'Unique Tremor'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen [VibrationExplosion] triggers on a target for the 6th time this turn, add an additional Stagger Threshold at 0% mark of their current HP (once per Encounter)\n\nInflict 1 [Vulnerable] when triggering [Switch_Vibration] or [FusionVibration] (once per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 9165,
+          "simpleDesc": "Add a new Stagger Threshold"
+        },
+        {
+          "abilityID": 91651,
+          "simpleDesc": "Inflict 1 [Vulnerable]"
+        }
+      ]
+    },
+    {
+      "id": 9169,
+      "name": "Thorny Rope Cuffs",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Burst] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nWhen an enemy's [Burst] Count drops below 1 in combat, consume 20 [Burst] Potency instead of [Burst] Count (at less than 20 [Burst] Potency, however, the effect ends)\n\nOn Hit, when the target has 1 [Burst] Count in combat, inflict +1 more [Burst] Count (2 times per Encounter)",
+      "simpleDesc": [
+        {
+          "abilityID": 9169,
+          "simpleDesc": "Consume Rupture Potency in place of Count"
+        },
+        {
+          "abilityID": 91691,
+          "simpleDesc": "Inflict +1 more Rupture Count"
+        }
+      ]
+    },
+    {
+      "id": 9174,
+      "name": "Tangled Bones",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply [Sinking] Potency, Count, or 'Unique Sinking'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: enemies with [Sinking](for Abnormalities, all Parts) regain ([Sinking] Count lost on hit last turn / 3) [Sinking] Count.\n\nIf the Base Attack Skill hits against a target with less than 0 SP(for enemies without SP, if they have 1.5+ Gloom Resist.), inflict ([Sinking] Potency / 10) Gloom Affinity damage (min 1, 10 times per turn for this effect)",
+      "simpleDesc": [
+        {
+          "abilityID": 9174,
+          "simpleDesc": "Inflict [Sinking] Count"
+        },
+        {
+          "abilityID": 91741,
+          "simpleDesc": "Inflict Gloom Affinity damage"
+        }
+      ]
+    },
+    {
+      "id": 9177,
+      "name": "Recollection of a Certain Day",
+      "desc": "Skill 3 for Identities that can gain [Breath] Potency or Count through Skills(except E.G.O Skills): Final Power +2",
+      "simpleDesc": [
+        {
+          "abilityID": 9177,
+          "simpleDesc": "Final Power +2"
+        }
+      ]
+    },
+    {
+      "id": 9179,
+      "name": "Reminiscence",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that apply or gain [Breath] Potency or Count. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\nSkill 3 of Identities with Skills(except E.G.O Skills) that gain [Breath] Potency or Count: Coin Power +1\n\nCombat Start: a random ally gains 3 [Breath] Potency. (prioritizes Identities that gain [Breath] Potency or Count with their Attack Skills) Prioritizes allies with Gloom Affinity Attack Skills; they gain 3 [Breath] Potency and +2 [Breath] Count instead.",
+      "simpleDesc": [
+        {
+          "abilityID": 9179,
+          "simpleDesc": "Coin Power +1"
+        },
+        {
+          "abilityID": 91791,
+          "simpleDesc": "Gain 3 [Breath] Potency. Allies with Gloom Affinity Attack Skills gain an additional +2 [Breath] Count"
+        }
+      ]
+    },
+    {
+      "id": 9182,
+      "name": "T-1B Octagonal Bolt",
+      "desc": "Encounter Start: This Gift activates when 5 or more Identities have Attack Skills that gain [Charge] Count or 'Unique Charge'. (except E.G.O Skills, only counts Identities on the field at Encounter Start)\n\nTurn Start: all allies gain (([Charge] Count + 'Unique Charge') / 10) [AttackDmgUp]. (max 2, rounded up)\n\nTurn End: allies without [ChargeForceField] gain 1 [ChargeForceField].\n\nEach Identity gains 1 [Charge] Potency every time they consume 20 [Charge] Count. (2 times per Identity per Encounter; Unique Charge does not interact with this effect)",
+      "simpleDesc": [
+        {
+          "abilityID": 9182,
+          "simpleDesc": "Gain ([Charge] Count / 10) [AttackDmgUp]"
+        },
+        {
+          "abilityID": 91821,
+          "simpleDesc": "Gain 1 [ChargeForceField]"
+        },
+        {
+          "abilityID": 91822,
+          "simpleDesc": "Gain 1 [Charge] Potency"
+        }
+      ]
+    },
+    {
+      "id": 9185,
+      "name": "Rebate Token",
+      "desc": "20% chance to get the Cost refunded when Enhancing in a Shop.",
+      "simpleDesc": [
+        {
+          "abilityID": 9185,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9186,
+      "name": "New Release Pamphlet",
+      "desc": "20% chance to get the Cost refunded when Refreshing in a Shop.",
+      "simpleDesc": [
+        {
+          "abilityID": 9186,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9187,
+      "name": "Special Catalogue",
+      "desc": "Number of Encounter Reward Card Choices +1",
+      "simpleDesc": [
+        {
+          "abilityID": 9187,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9188,
+      "name": "Pre-order Discount",
+      "desc": "Shop Regular Refresh Cost -30%",
+      "simpleDesc": [
+        {
+          "abilityID": 19188,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9189,
+      "name": "Renewed Merch",
+      "desc": "Shop E.G.O Gift Enhance Cost -30%",
+      "simpleDesc": [
+        {
+          "abilityID": 19189,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9190,
+      "name": "Trial Plan Guide",
+      "desc": "Shop Skill Replacement Cost -30%",
+      "simpleDesc": [
+        {
+          "abilityID": 29190,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9191,
+      "name": "Prestige Card",
+      "desc": "Shop E.G.O Gift Purchase Cost -30%",
+      "simpleDesc": [
+        {
+          "abilityID": 29191,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9991,
+      "name": "Dark Vestige",
+      "desc": "Counts as a Tier 1 E.G.O Gift. Can be sold at a Shop or be used as an ingredient for Fusion.",
+      "simpleDesc": [
+        {
+          "abilityID": 9991,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9992,
+      "name": "Faint Vestige",
+      "desc": "Counts as a Tier 2 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "simpleDesc": [
+        {
+          "abilityID": 9992,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9993,
+      "name": "Twinkling Vestige",
+      "desc": "Counts as a Tier 3 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "simpleDesc": [
+        {
+          "abilityID": 9993,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9994,
+      "name": "Brilliant Vestige",
+      "desc": "Counts as a Tier 4 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "simpleDesc": [
+        {
+          "abilityID": 9994,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9995,
+      "name": "Lunar Vestige",
+      "desc": "Counts as a Tier 5 E.G.O Gift. Can be sold at a Shop or be used as ingredients for Fusion.",
+      "simpleDesc": [
+        {
+          "abilityID": 9995,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9192,
+      "name": "Layered Bandages",
+      "desc": "Turn End: among allies with Bleed, the Identity with the least HP heals 5% of their max HP.",
+      "simpleDesc": [
+        {
+          "abilityID": 9192,
+          "simpleDesc": "Heal 1 ally with Bleed"
+        }
+      ]
+    },
+    {
+      "id": 19192,
+      "name": "Layered Bandages+",
+      "desc": "Turn End: among allies with Bleed, two Identities with the least HP heal 5% of their max HP.",
+      "simpleDesc": [
+        {
+          "abilityID": 19192,
+          "simpleDesc": "Heal 2 allies with Bleed"
+        }
+      ]
+    },
+    {
+      "id": 9193,
+      "name": "Overused Whetstone",
+      "desc": "[Effects apply only to the #3 Deployed Identity]\n\nSlash Skills gain +(# of Slash Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)\n\nWhen attacking enemies Weak(greater than 1.0 Resist.; Staggered states don't count), to Slash, deal +(5 + (target's Slash Resist. x 10))% more damage. (max 25%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9193,
+          "simpleDesc": "Slash Skills gain Offense Level"
+        },
+        {
+          "abilityID": 91931,
+          "simpleDesc": "Deal more Slash damage"
+        }
+      ]
+    },
+    {
+      "id": 9194,
+      "name": "Short Cane Sword",
+      "desc": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn for each Identity; effect cannot stack against the same enemy)\n- For Seven Association Identities: above effect applies to Pierce and Blunt Base Attack Skills as well\n\nEncounter Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (rounded down; max 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 9193,
+          "simpleDesc": "Inflict Defense Level Down. Seven Association Identities gain Clash Power"
+        },
+        {
+          "abilityID": 91931,
+          "simpleDesc": "Clash Power Up"
+        }
+      ]
+    },
+    {
+      "id": 19194,
+      "name": "Short Cane Sword+",
+      "desc": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn for each Identity; effect cannot stack against the same enemy)\n- For Seven Association Identities: above effect applies to Pierce and Blunt Base Attack Skills as well, and inflict Weakness Analyzed as well\n\nOdd-numbered Turn Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up (rounded down; max 2)",
+      "simpleDesc": [
+        {
+          "abilityID": 19193,
+          "simpleDesc": "Inflict Defense Level Down. Seven Association Identities gain Clash Power and inflict Weakness Analyzed as well"
+        },
+        {
+          "abilityID": 191931,
+          "simpleDesc": "Clash Power Up"
+        }
+      ]
+    },
+    {
+      "id": 29194,
+      "name": "Short Cane Sword++",
+      "desc": "When winning a Clash with a Slash Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn for each Identity; effect cannot stack against the same enemy)\n- For Seven Association Identities: above effect applies to Pierce and Blunt Base Attack Skills as well, and inflict Weakness Analyzed and 1 Clash Power Down as well\n\nTurn Start: Seven Association Identities gain (# of other Seven Association Identities / 2) Clash Power Up. (rounded down; max 2) On Clash Win, deal +20% more damage with the Skill.",
+      "simpleDesc": [
+        {
+          "abilityID": 29193,
+          "simpleDesc": "Inflict Defense Level Down. Seven Association Identities gain Clash Power and inflict Weakness Analyzed as well"
+        },
+        {
+          "abilityID": 291931,
+          "simpleDesc": "Clash Power Up, deal +20% more damage"
+        }
+      ]
+    },
+    {
+      "id": 9195,
+      "name": "Cloudpattern Gourd Bottle",
+      "desc": "Slash Attack Type Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit.\n- For Kurokumo Clan Identities: the above effects apply to all Slash Attack Type Skills instead\n\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed Potency or Count On Hit with a Base Attack Skill, gain 1 Poise Potency (4 times per turn for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 9195,
+          "simpleDesc": "Clash Power +1, inflict Offense Level Down On Hit"
+        },
+        {
+          "abilityID": 91951,
+          "simpleDesc": "Gain 1 Power Up; gain Poise when inflicting Bleed"
+        }
+      ]
+    },
+    {
+      "id": 19195,
+      "name": "Cloudpattern Gourd Bottle+",
+      "desc": "Slash Attack Type Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit.\n- For Kurokumo Clan Identities: the above effects apply to all Slash Attack Type or Lust Affinity Skills instead (effect does not stack)\n\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed Potency or Count On Hit with a Base Attack Skill, gain 1 Poise Potency (6 times per turn for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 19195,
+          "simpleDesc": "Clash Power +1, inflict Offense Level Down On Hit"
+        },
+        {
+          "abilityID": 191951,
+          "simpleDesc": "Gain 1 Power Up; gain Poise when inflicting Bleed"
+        }
+      ]
+    },
+    {
+      "id": 29195,
+      "name": "Cloudpattern Gourd Bottle++",
+      "desc": "Slash Attack Type Skill 1: Clash Power +1, inflict 2 Offense Level Down On Hit.\n- For Kurokumo Clan Identities: the above effects apply to all Skills instead (effect does not stack)\n\nTurn Start: Kurokumo Clan Identities gain 1 Power Up; when inflicting Bleed Potency or Count On Hit with a Base Attack Skill, gain 1~2 Poise Potency (8 times per turn for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 29195,
+          "simpleDesc": "Clash Power +1, inflict Offense Level Down On Hit"
+        },
+        {
+          "abilityID": 291951,
+          "simpleDesc": "Gain 1 Power Up; gain Poise when inflicting Bleed"
+        }
+      ]
+    },
+    {
+      "id": 9196,
+      "name": "Broken Greatsword",
+      "desc": "When dealing damage to an enemy with a Slash Attack Type Skill 1 or 2: deal +(10 + (Defense Level Up on self x 4))% more damage (max 50%)\n- For Zwei Association Identities: the above effect applies to all Attack Type Base Attack Skills\n\nTurn Start: Zwei Association Identities gain (# of other Zwei Association Identities) Defense Level Up (max 4)\n\nTurn End: if a Zwei Association Identity was hit by an enemy or used a Defensive Skill at the start of the Combat Phase, the unit gains 2 Attack Power Up next turn.",
+      "simpleDesc": [
+        {
+          "abilityID": 9196,
+          "simpleDesc": "Skills deal more damage"
+        },
+        {
+          "abilityID": 91961,
+          "simpleDesc": "Gain Defense Level Up"
+        },
+        {
+          "abilityID": 91962,
+          "simpleDesc": "Gain Attack Power Up"
+        }
+      ]
+    },
+    {
+      "id": 9197,
+      "name": "High-tensility Shoes",
+      "desc": "[Effects apply only to the #3 Deployed Identity]\n\nPierce Skills gain +(# of Pierce Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)\n\nAt 3+ [Agility]: when attacking an enemy, deal +(10 + ([Agility] on self x 3))% more Pierce damage (max 25%).",
+      "simpleDesc": [
+        {
+          "abilityID": 9197,
+          "simpleDesc": "Pierce Skills gain +(# of Pierce Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)"
+        },
+        {
+          "abilityID": 91971,
+          "simpleDesc": "At 3+ Haste: when attacking an enemy, deal +(10 + (Haste on self x 3))% more Pierce damage (max 25%)."
+        }
+      ]
+    },
+    {
+      "id": 9198,
+      "name": "Plume of Proof",
+      "desc": "On Hit after winning a Clash with a Pierce Base Attack Skill, inflict 1 Bind against the target next turn. (once per turn for each Identity; does not stack against the same enemy)\n- For Cinq Association Identities: gain 1 Haste next turn as well.\n\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets(for Abnormalities, Parts) with 'Declared Duel' or 'Focused Attack', gain 2 Poise Potency On Hit (once per turn for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 9198,
+          "simpleDesc": "Inflict Bind; Cinq Assoc. Identities gain Haste as well"
+        },
+        {
+          "abilityID": 91981,
+          "simpleDesc": "Gain Poise Potency"
+        }
+      ]
+    },
+    {
+      "id": 19198,
+      "name": "Plume of Proof+",
+      "desc": "On Hit after winning a Clash with a Pierce Base Attack Skill, inflict 1 Bind against the target next turn. (once per turn for each Identity; max 2 for each enemy)\n- For Cinq Association Identities: gain 1 Haste next turn as well.\n\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets(for Abnormalities, Parts) with 'Declared Duel' or 'Focused Attack', gain 4 Poise Potency On Hit (once per turn for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 19198,
+          "simpleDesc": "Inflict Bind; Cinq Assoc. Identities gain Haste as well"
+        },
+        {
+          "abilityID": 191981,
+          "simpleDesc": "Gain Poise Potency"
+        }
+      ]
+    },
+    {
+      "id": 29198,
+      "name": "Plume of Proof++",
+      "desc": "On Hit after winning a Clash with a Pierce Base Attack Skill, inflict 1 Bind against the target next turn. (once per turn for each Identity; max 2 for each enemy)\n- For Cinq Association Identities: gain 1 Haste next turn as well. (2 times per turn for each Identity)\n\nWhen a Cinq Association Identity uses a Base Attack Skill to win a Clash against targets(for Abnormalities, Parts) with 'Declared Duel' or 'Focused Attack', gain 4 Poise Potency On Hit (2 times per turn for each Identity)",
+      "simpleDesc": [
+        {
+          "abilityID": 29198,
+          "simpleDesc": "Inflict Bind; Cinq Assoc. Identities gain Haste as well"
+        },
+        {
+          "abilityID": 291981,
+          "simpleDesc": "Gain Poise Potency"
+        }
+      ]
+    },
+    {
+      "id": 9199,
+      "name": "Torn Hems",
+      "desc": "Pierce Attack Type Skill 2: Offense Level +2; if the Skill has 2 Coins or fewer, Offense Level +2 and Clash Power (2/# of Coins) instead.\n- For Technology Liberation Alliance Identities: above effect applies to all Pierce Attack Type Base Attack Skills\n\nTurn Start: Technology Liberation Alliance Identities gain (# of negative effects on self) [AttackUp]. (max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9199,
+          "simpleDesc": "Offense Level Up; Skills with 2 Coins or fewer gain Clash Power"
+        },
+        {
+          "abilityID": 91991,
+          "simpleDesc": "Gain Offense Level Up"
+        }
+      ]
+    },
+    {
+      "id": 19199,
+      "name": "Torn Hems+",
+      "desc": "Pierce Attack Type Skill 2: Offense Level +2; if the Skill has 2 Coins or fewer, Offense Level +2 and Clash Power (2/# of Coins) instead.\n- For Technology Liberation Alliance Identities: above effect applies to all Pierce Attack Type or Gluttony Affinity Base Attack Skills\n\nTurn Start: Technology Liberation Alliance Identities gain (# of negative effects on self + 1) [AttackUp]. (max 4)",
+      "simpleDesc": [
+        {
+          "abilityID": 19199,
+          "simpleDesc": "Offense Level Up; Skills with 2 Coins or fewer gain Clash Power"
+        },
+        {
+          "abilityID": 191991,
+          "simpleDesc": "Gain Offense Level Up"
+        }
+      ]
+    },
+    {
+      "id": 29199,
+      "name": "Torn Hems++",
+      "desc": "Pierce Attack Type Skill 2: Offense Level +2; if the Skill has 2 Coins or fewer, Offense Level +2 and Clash Power (2/# of Coins) instead.\n- For Technology Liberation Alliance Identities: above effect applies to all Base Attack Skills\n\nTurn Start: Technology Liberation Alliance Identities gain 1 Clash Power Up and (value of highest Stack among negative effects on self) [AttackUp]. (max 5)",
+      "simpleDesc": [
+        {
+          "abilityID": 29199,
+          "simpleDesc": "Offense Level Up; Skills with 2 Coins or fewer gain Clash Power"
+        },
+        {
+          "abilityID": 291991,
+          "simpleDesc": "Gain Clash Power and Offense Level Up"
+        }
+      ]
+    },
+    {
+      "id": 9200,
+      "name": "Dueling Manual Book 3",
+      "desc": "[Effects apply only to #1 Deployed Identity]\n\nEvade Skill Power +1~3; after every 3 successful Evade, gain 1 [PenetrateDamageUp] this turn and next turn (5 per turn)\n\nIf the unit dealt damage with a Pierce Skill, reset the [PenetrateDamageUp] Stack gained from this E.G.O Gift effect at the next Turn Start.",
+      "simpleDesc": [
+        {
+          "abilityID": 9200,
+          "simpleDesc": "Gain Evade Skill Power. Gain Pierce DMG Up after every 3 successful Evade"
+        }
+      ]
+    },
+    {
+      "id": 9201,
+      "name": "Dimensional Recycle Bin",
+      "desc": "[Effects apply only to the #3 Deployed Identity]\n\nBlunt Skills gain (# of Blunt Base Attack Skills) Offense Level. (same Skills don't count twice; max 3)\n\nWhen using a Skill to attack an enemy, if a different Skill was [Discard]ed, deal +(10 + (rank of the Discarded Skill x 5))% more Blunt damage. (if multiple were discarded, take the highest value; max 25%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9201,
+          "simpleDesc": "Blunt Skills gain Offense Level"
+        },
+        {
+          "abilityID": 92011,
+          "simpleDesc": "Deal more Blunt damage"
+        }
+      ]
+    },
+    {
+      "id": 9202,
+      "name": "Pocket Flashcards",
+      "desc": "When winning a Clash with a Blunt Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn for each Identity; effect cannot stack against the same enemy)\n- For Dieci Association Identities: above effect applies to Slash and Pierce Base Attack Skills as well; inflict 1 additional Defense Level Down\n\nIf a Dieci Association Identity Discarded their own Skill using a Discard Skill, gain (rank of the Discarded Skill) Offense Level Up at the next Turn Start. (if multiple are discarded, take the highest value; max 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9202,
+          "simpleDesc": "Inflict Defense Level Down next turn"
+        },
+        {
+          "abilityID": 92021,
+          "simpleDesc": "Gain (rank of the Discarded Skill) Offense Level Up"
+        }
+      ]
+    },
+    {
+      "id": 19202,
+      "name": "Pocket Flashcards+",
+      "desc": "When winning a Clash with a Blunt Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn for each Identity; effect cannot stack against the same enemy)\n- For Dieci Association Identities: above effect applies to Slash and Pierce Base Attack Skills as well; inflict 1 additional Defense Level Down\n\nIf a Dieci Association Identity Discarded their own Skill using a Discard Skill, gain (rank of the Discarded Skill + 1) Offense Level Up at the next Turn Start. (if multiple are discarded, take the highest value; max 4)",
+      "simpleDesc": [
+        {
+          "abilityID": 19202,
+          "simpleDesc": "Inflict Defense Level Down next turn"
+        },
+        {
+          "abilityID": 192021,
+          "simpleDesc": "Gain (rank of the Discarded Skill) Offense Level Up"
+        }
+      ]
+    },
+    {
+      "id": 29202,
+      "name": "Pocket Flashcards++",
+      "desc": "When winning a Clash with a Blunt Base Attack Skill, inflict 2 Defense Level Down next turn against the target. (once per turn for each Identity; effect cannot stack against the same enemy)\n- For Dieci Association Identities: above effect applies to Slash and Pierce Base Attack Skills as well; inflict 1 additional Defense Level Down\n\nIf a Dieci Association Identity Discarded their own Skill using a Discard Skill, gain (rank of the Discarded Skill + 2) Offense Level Up at the next Turn Start. (if multiple are discarded, take the highest value; max 5)",
+      "simpleDesc": [
+        {
+          "abilityID": 29202,
+          "simpleDesc": "Inflict Defense Level Down next turn"
+        },
+        {
+          "abilityID": 292021,
+          "simpleDesc": "Gain (rank of the Discarded Skill) Offense Level Up"
+        }
+      ]
+    },
+    {
+      "id": 9203,
+      "name": "Dimensional Perception Modifier",
+      "desc": "Blunt Attack Type Skill 1 & 2: Offense Level +(# of Coins - 1) (max 2)\n- Skills with Discard effects gain Offense Level +(# of Coins) instead (max 4)\n\nIf a unit used a Discard Skill to discard their Skill, gain 1 Damage Up and (rank of the Discarded Skill) Offense Level Up. (once per turn for each Identity; if multiple were discarded, take the highest value; max 3)\n- If a Blunt Attack Type Skill was Discarded, gain 1 Blunt DMG Up as well",
+      "simpleDesc": [
+        {
+          "abilityID": 9203,
+          "simpleDesc": "Gain Offense Level"
+        },
+        {
+          "abilityID": 92031,
+          "simpleDesc": "Gain Damage Up and Offense Level Up. If a Blunt Skill was Discarded, gain Blunt DMG Up as well"
+        }
+      ]
+    },
+    {
+      "id": 9204,
+      "name": "The Book of Vengeance",
+      "desc": "When counterattacking after using a Counter Skill(except Power Counters) and taking damage, the counterattack deals +(12.5 x highest Reson.)% more damage. (once per turn; max 75%; effect applies to other Counter Skills in the same Reson.\n\nWhen using a Blunt Counter Skill(except Power Counters), gain (2.5 x highest Reson.)% of max HP as Shield before using the Counter Skill. (the sum of Shield on self and the Shield from this effect cannot exceed 25% of max HP)\n\nCannot be Staggered by getting hit when using a Counter Skill. (except Power Counters; once per Encounter)",
+      "simpleDesc": [
+        {
+          "abilityID": 9204,
+          "simpleDesc": "Counter Skills deal more damage"
+        },
+        {
+          "abilityID": 92041,
+          "simpleDesc": "Gain Shield"
+        },
+        {
+          "abilityID": 92042,
+          "simpleDesc": "Cannot be Staggered from damage when counterattacking"
         }
       ]
     }

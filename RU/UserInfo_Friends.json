@@ -263,6 +263,22 @@
     {
       "id": "IntroduceSort_ABC",
       "content": "В алфавитном порядке"
+    },
+    {
+      "id": "IntroduceSort_Acquisition",
+      "content": "Recent"
+    },
+    {
+      "id": "SimilarBanner",
+      "content": "Banner List"
+    },
+    {
+      "id": "SimilarTicket",
+      "content": "Ticket List"
+    },
+    {
+      "id": "Choosing",
+      "content": "Selecting"
     }
   ]
 }

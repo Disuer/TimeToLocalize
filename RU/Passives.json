@@ -110,7 +110,6 @@
       "name": "Последняя попытка бороться",
       "desc": "При менее, чем 25% ОЗ, получает +1 силу в поединке."
     },
-
     {
       "id": 1080201,
       "name": "Сосредоточение мозговых волн",
@@ -301,7 +300,6 @@
       "name": "Решимость выживать",
       "desc": "Союзник с наименьшими ОЗ и менее, чем 50% от максимальных ОЗ, получает +1 силу в поединке."
     },
-    
     {
       "id": 1080221,
       "name": "Стойкость",
@@ -942,7 +940,6 @@
       "name": "Безнадёга",
       "desc": "Союзник с наибольшими ОЗ наносит больше Колющего урона с потерей ОЗ\n- Урон повышается на 0.3% за каждый 1% потерянных ОЗ. (До 30%)",
       "summary": "Союзник с наибольшими ОЗ наносит больше Колющего урона с потерей ОЗ"
-
     },
     {
       "id": 1010701,
@@ -1266,7 +1263,6 @@
       "desc": "Сила в поединке +1 против целей с <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\nСила в поединке +2 против целей со счётчиком <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, равном 5 и более",
       "summary": ""
     },
-
     {
       "id": 1020901,
       "name": "Реакция лакея",
@@ -1423,7 +1419,6 @@
       "desc": "Когда монета навыка первого вступившего в команду союзника падет орлом, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1. (Активируется до 4-х раз за ход)",
       "summary": "Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> при выпадении орла."
     },
-
     {
       "id": 1010901,
       "name": "Оценка задачи",
@@ -1696,6 +1691,224 @@
       "id": 1081021,
       "name": "Неотложная защита",
       "desc": "В начале хода союзник с наибольшей разницей в ОЗ от предыдущего хода (в меньшую сторону) получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>."
+    },
+    {
+      "id": 1101001,
+      "name": "Begin Protection Mission",
+      "desc": "At Combat Start, gain [DefenseUp] equal to [Vibration] Count on self (max 5)"
+    },
+    {
+      "id": 1101021,
+      "name": "Contract Target Protection",
+      "desc": "Turn End: apply 1 [Agility] and 3 [DefenseUp] to 1 ally with the lowest HP percentage next turn"
+    },
+    {
+      "id": 1051101,
+      "name": "Duel Livestream",
+      "desc": "Gain 1 [Agility] next turn for every 3 [Breath] Potency on self at Turn End (max 2)\nOn Hit with base Attack Skills: inflict [ConcentratedAttackMeursault] next turn. (once per Skill)",
+      "summary": "Turn End: gain [Agility] based on [Breath] Count on self. On Hit with a base Skill, inflict [ConcentratedAttackMeursault] next turn"
+    },
+    {
+      "id": 1051111,
+      "name": "Duel Livestream",
+      "desc": "Gain 1 [Agility] next turn for every 3 [Breath] Potency on self at Turn End (max 2)\nOn Hit with base Attack Skills: inflict [ConcentratedAttackMeursault] next turn. (once per Skill)\n<style=\"highlight\">If this unit attacked the Slot with [ConcentratedAttackMeursault] and defeated its owner or broke the Part, heal 7 SP</style>",
+      "summary": "Turn End: gain [Agility] based on [Breath] Count on self. On Hit with a base Skill, inflict [ConcentratedAttackMeursault] next turn. Heals SP On Kill"
+    },
+    {
+      "id": 1051121,
+      "name": "One Step Ahead",
+      "desc": "The fastest ally, on Clash Win, gains 1 [Agility] next turn (2 times per turn)",
+      "summary": "The fastest ally, on Clash Win, gains 1 [Agility] next turn"
+    },
+    {
+      "id": 1061001,
+      "name": "How to Hunt Cheerfully",
+      "desc": "If the target is a <Bloodfiend> or a <Bloodbag>, deal +10% more damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (once per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1061011,
+      "name": "How to Hunt Cheerfully",
+      "desc": "If the target is a <Bloodfiend>, <Bloodbag>, or if the target has 10+ [Burst], deal +10% more damage\nOn Skill Use, if this unit has [Laceration], inflict 3 [Burst] On Hit (2 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1061021,
+      "name": "Bloodfiend Hunting Manual - Styptics",
+      "desc": "Combat Start: 1 ally with the highest sum of [Laceration] Potency and Count loses 2 [Laceration] Count\nWhen 1 ally with the fastest Speed hits an enemy with [Burst], inflict 1 [DefenseDown] (2 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1111101,
+      "name": "WRONG COSTUME!!!",
+      "desc": "On Hit, deal +1% more damage for every 10 [BloodDinner_Accumulation] by self (max 20%)",
+      "summary": "Deal more damage based on cumulative Bloodfeast consumed"
+    },
+    {
+      "id": 1111111,
+      "name": "WRONG COSTUME!!!",
+      "desc": "In a Clash against [LineCuttingPersonality], Clash Power +1.\nOn Hit, deal +1.5% more damage for every 10 [BloodDinner_Accumulation] by self (max 30%)\nOn Hit, deal +0.5% more damage for every [Laceration] on the target (max 10%)",
+      "summary": "In a Clash against Sewing Target, Clash Power +1"
+    },
+    {
+      "id": 1111102,
+      "name": "Bloodfeast",
+      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface.",
+      "summary": ""
+    },
+    {
+      "id": 1111121,
+      "name": "Don Quixote Hardblood Arts 8: Scissors",
+      "desc": "1 ally with the fastest Speed: if the enemy is killed After Attack, heal 10 HP (2 times per turn)\n1 ally with the fastest Speed: if the enemy is killed After Attack, inflict +1 [Laceration] Count when inflicting [Laceration] Potency with Skill or Coin effects for the next turn (3 times per turn)",
+      "summary": "If the enemy is dead After Attack, heal HP"
+    },
+    {
+      "id": 1121001,
+      "name": "Self-destructive Dedication",
+      "desc": "Turn End: heal ((10 - [WornHeartGreg])/2) SP for the ally with the least SP (excluding: self or allies that are Panicked or Corroded; rounded down)\nIn this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn. (once per Encounter)",
+      "summary": ""
+    },
+    {
+      "id": 1121002,
+      "name": "Bloodfeast",
+      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will rise above the surface.",
+      "summary": ""
+    },
+    {
+      "id": 1121011,
+      "name": "Self-destructive Dedication",
+      "desc": "Turn End: heal (10 - [WornHeartGreg]) SP for the ally with the least SP (excluding: self or allies that are Panicked or Corroded)\nIn this Encounter, when this unit takes damage that brings their HP down to 0, nullify that damage; then, this unit's HP cannot drop below 1 for the turn. (once per Encounter)",
+      "summary": ""
+    },
+    {
+      "id": 1121021,
+      "name": "Don Quixote Hardblood Arts 6: Whip",
+      "desc": "1 ally with the lowest HP percentage heals 3 HP On Hit (3 times per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1121031,
+      "name": "Don Quixote Hardblood Arts 6: Whip",
+      "desc": "1 ally with the lowest HP percentage heals 3 HP On Hit (3 times per turn)\n- If the target hit by the said ally had [Laceration], heal 3 additional HP",
+      "summary": ""
+    },
+    {
+      "id": 1091101,
+      "name": "Hardblood Thorn",
+      "desc": "When an other ally takes [Laceration] damage or consumes [BloodDinner], gain 1 [BloomingThornsRodionFirst] (3 times per turn)\nHeal HP on self by 20% of the damage dealt with base Skills (max 10 per Skill)",
+      "summary": ""
+    },
+    {
+      "id": 1091102,
+      "name": "Bloodfeast",
+      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase [BloodDinner] value by the amount of [Laceration] damage collectively received by every unit. \nWhen this unit enters the field, the sleeping blood drenching the battlefield will fill the surface.",
+      "summary": ""
+    },
+    {
+      "id": 1091111,
+      "name": "Hardblood Thorn",
+      "desc": "When an other ally takes [Laceration] damage or consumes [BloodDinner], this unit gains 1 [BloomingThornsRodionFirst] (5 times per turn)\nHeal HP on self by 20% of the damage dealt with base Skills (max 10 per Skill)\n- At max HP, heal 1 ally with the lowest HP percentage by excess healing",
+      "summary": ""
+    },
+    {
+      "id": 1091121,
+      "name": "\"Blossom with Blood...\"",
+      "desc": "To 1 ally with the highest [Laceration] Potency at Turn End: reduce the ally's [Laceration] Potency by 6 max, and apply (Bleed Potency reduced / 2) [BloomingThornsRodionFirst] (rounded down)",
+      "summary": ""
+    },
+    {
+      "id": 1101101,
+      "name": "A moment, please...",
+      "desc": "Turn Start: At 6+ Speed, or if this unit has [Agility], gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 20%)",
+      "summary": ""
+    },
+    {
+      "id": 1101102,
+      "name": "I'll do better next time...",
+      "desc": "<For Chain Battles> When, after Retreating with '[Retreat]', if this unit rejoins the battle, halve the [DevyatDimensionalSackSinclair] value (once per Encounter, rounded up)",
+      "summary": ""
+    },
+    {
+      "id": 1101111,
+      "name": "A moment, please...",
+      "desc": "Turn Start: At 6+ Speed, or if this unit has [Agility], gain ([DevyatDimensionalSackSinclair])% of this unit's max HP as Shield (max 20%)\nUpon Retreat, apply 1 [ParryingResultUp] to 2 allies next turn (prioritizes Substituted units first, then in Deployment order)\n- Lasts for 1 additional turn for every 15 [DevyatDimensionalSackSinclair] (2 more turns max)",
+      "summary": ""
+    },
+    {
+      "id": 1101121,
+      "name": "Speedy Courier",
+      "desc": "When 1 ally with the fastest Speed hits an enemy with [Burst], inflict 1 [DefenseDown] (3 times per enemy per turn)",
+      "summary": ""
+    },
+    {
+      "id": 1031001,
+      "name": "Bloodfeast",
+      "desc": "If this unit is on field, or is one of the units that can appear on this Stage, increase Bloodfeast value by the amount of [Laceration] damage collectively received by every unit.\nWhen this unit enters the field, the sleeping blood drenching the battlefield will fill the surface.\n\nWhen consuming [BloodDinner], if there are <La Manchaland[TabExplain]> Kindreds of the same generation as this unit, this unit takes precedence.\n\nWhen using 'Variant Sancho Hardblood[TabExplain] Arts 6 - Whip', HP cannot drop below 1 due to Bleed damage."
+    },
+    {
+      "id": 1031002,
+      "name": "Variant Sancho Hardblood Arts",
+      "desc": "Turn Start: At 15+ [BloodArmorPersonalityFirst], if each following unit is either defeated or participating in the Encounter, empower this unit's leftmost Slot.\nThe Priest of La Manchaland[TabExplain] Gregor: Empower Skill 1\nThe Barber of La Manchaland[TabExplain] Outis: Empower Skill 2\nThis Unit: Empower Skill 3\nThe Princess of La Manchaland[TabExplain] Rodion: Empower Defense Skill[TabExplain]\n\nWhen other units among allies take [Laceration] damage or consume [BloodDinner], gain 2 [BloodArmorPersonalityFirst] on self (3 times per turn)"
+    },
+    {
+      "id": 1031003,
+      "name": "Bearer of the Blood Kin",
+      "desc": "In an Encounter, if an other allied <La Manchaland[TabExplain]> unit is defeated:\n- Gain 1 more [BloodArmorPersonalityFirst] when gaining [BloodArmorPersonalityFirst] from this unit's Base Attack Skills\n- When 3+ other allied <La Manchaland[TabExplain]> units are defeated: gain 3 additional [BloodArmorPersonalityFirst]; at Turn Start, gain 1 [SadLamanchaland]"
+    },
+    {
+      "id": 1031004,
+      "name": "Armadura de Sangre",
+      "desc": "After Attack: if the enemy is defeated, increase [BloodDinner] by 10% of the target's max HP (100 per turn; for Focused Encounters, if the Part is broken)\nGain 1 [AttackDmgUp] next turn for every 15% missing HP at Turn End (max 3)\nIf an ally is about to be defeated from [Laceration] damage, prevent them from being defeated from Bleed damage for the turn (once per Encounter for each Identity)"
+    },
+    {
+      "id": 1031021,
+      "name": "‘Feed your repressed hunger, my Family’",
+      "desc": "Combat Start: 1 ally with the least HP gains 1 [AttackDmgUp] for every 20% missing HP (max 3)\n- If the said ally is a <Bloodfiend>, gain 1 [AttackDmgUp] for every 15% missing HP instead (max 3)"
+    },
+    {
+      "id": 1061101,
+      "name": "Concentration",
+      "desc": "When flipping a Coin that consumes [Bullet]: even when this unit is out of [Bullet], the attack does not get canceled. However, the affected Coins' On Hit effects do not activate in such cases."
+    },
+    {
+      "id": 1061102,
+      "name": "Tactical Firearm Support",
+      "desc": "If the Full-Stop Office Fixer Heathcliff is in [Retreat_FullStop] state, or has been Deployed as a Backup unit, empower Full-Stop Office Rep. Hong Lu's Skill 2 and Skill 3"
+    },
+    {
+      "id": 1061111,
+      "name": "Tactical Fire Support",
+      "desc": "If the Full-Stop Office Fixer Heathcliff is in [Retreat_FullStop] state, or has been Deployed as a Backup unit, empower Full-Stop Office Rep. Hong Lu's Skill 2 and Skill 3\n\nCombat Start: at 20+ [Breath] Potency, gain +1 [Breath] Count"
+    },
+    {
+      "id": 1061121,
+      "name": "Suppressing Fire",
+      "desc": "Ally Identity with the most [Bullet] deals +10% more damage with Skills that spend [Bullet]\n(Does not activate when out of [Bullet])"
+    },
+    {
+      "id": 1071101,
+      "name": "Snipe",
+      "desc": "Encounter Start: gain 3 [PenetrateResultUp]\n\nTurn End: If this unit does not have any remaining [Bullet] of any kind, activate [Retreat_FullStop] (once per Encounter)\n\nIf this unit is Substituted in, or is rejoining battle after [Retreat_FullStop], gain max [LogicAtelierAM], 3 [PenetrateResultUp], and [FullReload] (except [Bullet_LogicAtelier]; once per Encounter)"
+    },
+    {
+      "id": 1071102,
+      "name": "Precision Aim",
+      "desc": "Turn End: gain 1 [Agility] next turn for every 10 [Breath] on self (max 2)\n\nTurn End: if this unit is not set to use any Attack Skills (including E.G.O Skills, excluding [CoveringFire]), gain 10 [Breath] and 1 [PenetrateResultUp] next turn."
+    },
+    {
+      "id": 1071103,
+      "name": "Snipe",
+      "desc": "Encounter Start: gain 3 [PenetrateResultUp]\n\nWhen this unit enters the Encounter, gain 1 [Bullet_LogicAtelier] (once per Encounter)\n\nTurn End: If this unit does not have any remaining [Bullet] of any kind, activate [Retreat_FullStop] (once per Encounter)\n\nIf this unit is Substituted in, or is rejoining battle after [Retreat_FullStop], gain max [LogicAtelierAM], 3 [PenetrateResultUp], and [FullReload]\n(Except [Bullet_LogicAtelier]; once per Encounter)"
+    },
+    {
+      "id": 1071111,
+      "name": "Precision Aim",
+      "desc": "Turn End: gain 1 [Agility] next turn for every 10 [Breath] on self (max 2)\n\n<style=\"highlight\">Combat Start: if this unit is not set to use any Attack Skills (including E.G.O Skills), apply 3 [Breath] to 1 ally with the least Poise Potency</style>\n\nTurn End: if this unit did not use any Attack Skills (including E.G.O Skills, excluding [CoveringFire]), gain 10 [Breath] and 1 [PenetrateResultUp] next turn"
+    },
+    {
+      "id": 1071121,
+      "name": "Spotter",
+      "desc": "1 ally with the least [Bullet] gains +2 [Breath] Count when using a Skill that consumes [Bullet].\n- If the said ally is a Full-Stop Office Identity, or if they have less than 5 [Breath] Count, gain +4 [Breath] Count instead (once per turn; does not apply to units without [Bullet])"
     }
   ]
 }

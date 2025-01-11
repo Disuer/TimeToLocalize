@@ -424,6 +424,21 @@
       "id": 20708,
       "name": "Крен инерции",
       "desc": "ЭГО-снаряжение Хитклифа"
+    },
+    {
+      "id": 20808,
+      "name": "Christmas Nightmare",
+      "desc": "Ishmael’s E.G.O Gear"
+    },
+    {
+      "id": 21208,
+      "name": "Christmas Nightmare",
+      "desc": "Gregor’s E.G.O Gear"
+    },
+    {
+      "id": 21108,
+      "name": "Magic Bullet",
+      "desc": "Outis’s E.G.O Gear"
     }
   ]
 }

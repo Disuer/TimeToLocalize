@@ -79,6 +79,26 @@
     {
       "id": "dungeon_return_to_save_point",
       "content": "К точке сохранения"
+    },
+    {
+      "id": "dungeon_unlocked_node_notice",
+      "content": "A new location has been discovered."
+    },
+    {
+      "id": "dungeon_unlocked_line_notice",
+      "content": "A new path has opened."
+    },
+    {
+      "id": "dungeon_encounter_guide_stairs",
+      "content": "Move to Next Zone"
+    },
+    {
+      "id": "dungeon_encounter_guide_story",
+      "content": "Story"
+    },
+    {
+      "id": "formation_ui_ask_to_use_saved_formation",
+      "content": "Your current Team Loadout will be replaced with this new Loadout.\nWill you replace your current Team Loadout with this Loadout?\n\n<size=80%>※ Once your Team Loadout has been replaced, you cannot revert back to your previous Loadout.\n※ Loadout changes made in the middle of Story Dungeons have no effect in the Loadouts in the Sinners Window.</size>"
     }
   ]
 }

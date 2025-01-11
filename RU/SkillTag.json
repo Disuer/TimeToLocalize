@@ -195,6 +195,50 @@
     {
       "id": "DuelCounter",
       "name": "[Контратака с поединком]"
+    },
+    {
+      "id": "CantBreak",
+      "name": "[Unbreakable Coin]"
+    },
+    {
+      "id": "DuelGuard",
+      "name": "[Clashable Guard]"
+    },
+    {
+      "id": "WhenUseEvade",
+      "name": "[On Evade Use]"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[After Current Coin Attack]"
+    },
+    {
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "[On Crit Kill Fail Against Enemy]"
+    },
+    {
+      "id": "CriticalEnemyTargetKill",
+      "name": "[On Crit Kill Against Enemy]"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "[Hit after Clash Lose]"
+    },
+    {
+      "id": "TargetKillFail",
+      "name": "[On Target Kill Fail]"
+    },
+    {
+      "id": "AllyKill",
+      "name": "[On Ally Kill]"
+    },
+    {
+      "id": "AllyKillFail",
+      "name": "[On Ally Kill Fail]"
+    },
+    {
+      "id": "TabExplain",
+      "name": ""
     }
   ]
 }

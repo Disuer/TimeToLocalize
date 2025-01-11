@@ -17,20 +17,12 @@
       "content": "Библиотека"
     },
     {
-      "id": "Office",
-      "content": "Офисы"
-    },
-    {
       "id": "SevenAsso",
       "content": "Ассоциация «Севен»"
     },
     {
       "id": "DebatyAsso",
       "content": "Ассоциация «Девять»"
-    },
-    {
-      "id": "LobotomyКорп",
-      "content": "Корпорация «Лоботомия»"
     },
     {
       "id": "Armory",
@@ -47,14 +39,6 @@
     {
       "id": "Creature",
       "content": "Монстры"
-    },
-    {
-      "id": "Mepis",
-      "content": "Мефистофель"
-    },
-    {
-      "id": "NestK",
-      "content": "Корп. K"
     },
     {
       "id": "Misc",

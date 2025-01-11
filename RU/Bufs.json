@@ -2202,6 +2202,159 @@
       "desc": "- Максимальное число : 10.\n- В конце хода число эффекта повышается на 1.\n- В начале хода даёт носителю 1 Повышение уровня защиты за каждые 3 единицы эффекта.\n- При менее 50% ОЗ Грегор повышает уровень защиты на 1 за каждые 3 единицы эффекта.\n- При менее 40% ОЗ во время удара базовым навыком Грегор восстанавливает (число x5)% нанесённого урона в качестве ОЗ. (Не менее 1. Десятичные опускаются. До 30 за навык)",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionFirst",
+      "name": "Blooming Thorn",
+      "desc": "- Max Value: 10\n- Stage 1 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionSecond",
+      "name": "Blooming Thorn II",
+      "desc": "- Max Value: 20\n- Stage 2 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThornsRodionThird",
+      "name": "Blooming Thorn III",
+      "desc": "- Max Value: 30\n- Stage 3 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FestivalFeverRodion",
+      "name": "Festive Fever",
+      "desc": "- Max Value: 10\n- Expires at Turn End\n- Deal +({0} x 1.5)% more damage against targets with Bleed\n- Skills that consume or gain Bloodfeast : deal +({0} x 3)% more damage instead",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "VibrationSpring",
+      "name": "Tremor - Clockwinding",
+      "desc": "- Max Speed + 2\n- Inflict 1 more of each when inflicting Tremor Potency of Count with this unit's Skill or Coin effects by consuming 1 Tremor Count on self\n- When hit by Skills that trigger Tremor Burst, raise the Stagger Threshold by the effect's Potency\n- Turn End: reduce the Count by 1\n- (Interacts the same way as normal Tremor does to effects that raise or reduce Tremor Potency/Count)",
+      "summary": "Max Speed +2\nConsume Tremor Count on self to inflict +1 more Tremor Potency and Count",
+      "undefined": "-"
+    },
+    {
+      "id": "DevyatDimensionalSackSinclair",
+      "name": "Courier Trunk - Sinclair",
+      "desc": "- Base Value: 0\n- Turn Start: gain 3 Stack\n- Stack does not expire upon Retreat; it is stored instead\n- At 10+ Stack: raise Min & Max Speed values by 1\n- At 20+ Stack: Gain 1 Clash Power Up and 1 Blunt Damage Up\n- At 30+ Stack:\n· On Skill Use, take (Stack/3)% HP damage and (Stack/3) SP damage\n· On Turn End, take (Stack/2)% HP damage and (Stack/2) SP damage (applies before Retreat)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Zazen",
+      "name": "Dhyāna",
+      "desc": "- Max Stack: 108\n- Deal +1% more damage for every Stack",
+      "summary": "Deal more damage"
+    },
+    {
+      "id": "SwirlingBloodPersonality",
+      "name": "Shimmering [Bloodfiend]",
+      "desc": "- Max Stack: 50\n- As long as this effect exists, all Bleed damage taken by the Shield HP is converted to Bloodfeast.\n- Gain Shield HP equal to the Stack at the moment of its application\n- Expires at Turn End",
+      "summary": ""
+    },
+    {
+      "id": "BloodArmorPersonalityFirst",
+      "name": "Hardblood",
+      "desc": "- Max Stack: 10\n- Stage 1 Hardblood\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- Raise Min & Max Speed values by 1 for every 10 Hardblood\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack",
+      "summary": ""
+    },
+    {
+      "id": "BloodArmorPersonalitySecond",
+      "name": "Hardblood II",
+      "desc": "- Max Stack: 20\n- Stage 2 Hardblood\n- Turn Start: gain 1 Offense Level Up for every 5 Stack\n- Raise Min & Max Speed values by 1\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack",
+      "summary": ""
+    },
+    {
+      "id": "BloodArmorPersonalityThird",
+      "name": "Hardblood III",
+      "desc": "- Max Stack: 30\n- Stage 3 Hardblood\n- Turn Start: gain 1 Offense Level Up and 1 Defense Level Up for every 5 Stack\n- Raise Min & Max Speed values by 2\n- At 10+ Hardblood, converts to Hardblood II.\n- At 20+ Hardblood, converts to Hardblood III.\n- Reverts to the previous Stage when the Stack drops below the requirements.\n- Hardblood does not drop below 1.\n- At Hardblood II, gain 1 Offense Level Up based on the Stack\n- At Hardblood III, gain 1 Offense Level Up and 1 Defense Level Up based on the Stack",
+      "summary": ""
+    },
+    {
+      "id": "SadLamanchaland",
+      "name": "Responsibility",
+      "desc": "- Max Value: 1\n- Clash Power +1\n- Deal +20% more damage\n- Take +20% more damage",
+      "summary": ""
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_1st",
+      "name": "The First Magic Bullet",
+      "desc": "- Deals +20% more damage\n- Raise the target's Stagger Threshold by damage dealt (max 30)"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_2nd",
+      "name": "The Second Magic Bullet",
+      "desc": "- Deal +10% more damage\n- Deal damage to targets other than the main target (max targets: 4); the main target takes 0 damage\n- On Hit, inflict 3 Paralyze"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_3rd",
+      "name": "The Third Magic Bullet",
+      "desc": "- Deal +20% more damage\n- Before Attack: gain +2 Atk Weight\n- On Hit, inflict 2 Attack Power Down and 10 Burn"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_4th",
+      "name": "The Fourth Magic Bullet",
+      "desc": "- Deal +30% more damage\n- Before Attack: gain +3 Atk Weight\n- On Hit, raise the target's Stagger Threshold by damage dealt (max 20); then, inflict 3 Fragility next turn"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_5th",
+      "name": "The Fifth Magic Bullet",
+      "desc": "- Deal +30% more damage\n- Before Attack: gain +4 Atk Weight\n- On Hit, inflict 10 Burn; then, inflict 4 Offense Level down and 4 Defense Level Down next turn"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_6th",
+      "name": "The Sixth Magic Bullet",
+      "desc": "- Before Attack: gain +6 Atk Weight\n- On Hit, raise the target's Stagger Threshold by damage dealt (max 30)\n- Reuse the Coin for every 7 Burn on the main target (2 times max)\n- Plus Coin Skill Base Power -16\n- Minus Coin Skill Base Power -22\n - Plus Coin Power -8\n - Minus Coin Power -12"
+    },
+    {
+      "id": "FreishutzOutisEgoBullet_7th",
+      "name": "The Seventh Magic Bullet",
+      "desc": "- Deal +200% more damage\n- Deal +2.5% more damage for every 1% missing HP on the target (max 200%)\n- Before Attack: for this attack, if the Pierce Damage Res. on the target or on self are less than 2.0, change them to Fatal(x2.0)\n- After Attack: kills this unit"
+    },
+    {
+      "id": "FreishutzOutisEgoBulletCnt",
+      "name": "Marksman's Bullet",
+      "desc": "Uses a different Ammo depending on Marksman's Bullet"
+    },
+    {
+      "id": "CoveringFire",
+      "name": "Target Spotted",
+      "desc": "If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with its Skill 2 against the same enemy Unit A attacked with its Skill. Activates at Unit A's Attack End.\n- The Skill used due to this effect does not affect Unit B's upcoming Skills list."
+    },
+    {
+      "id": "FullReload",
+      "name": "Reload",
+      "desc": "Lose all currently owned Ammo, and reload it back to full"
+    },
+    {
+      "id": "Bullet_LogicAtelier",
+      "name": "Ammo - Atelier Logic",
+      "desc": "Unique Ammo\nAtelier Logic Workshop Special Ammo\n- This Ammo's count cannot be gained or lost due to external effects"
+    },
+    {
+      "id": "Retreat_FullStop",
+      "name": "Overwatch Assignment",
+      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (unless it's a forced Stagger; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)"
+    },
+    {
+      "id": "LogicAtelierAM",
+      "name": "Concentration[Sniper]",
+      "desc": "- Max Stack: 4\n- Turn End: gain 1 Stack"
+    },
+    {
+      "id": "MeleeCover",
+      "name": "Melee Support",
+      "desc": "- If unit A applies this effect to unit B: Unit B follows up with an Unopposed Attack with the 'Melee Support' Skill against the same enemy that attacked Unit A. Activates at Unit A's Skill End.\n- The Skill used due to the 'Melee Support' effect does not affect Unit B's upcoming Skills list."
+    },
+    {
+      "id": "RequestedTarget",
+      "name": "Requested Target",
+      "desc": "+0.2 Resistance to Attack Types with 1.5 or less Resistance. If the target with this effect is defeated, gain 1 E.G.O resource for all Affinities, and the unit that defeated the target heals 10 SP"
     }
   ]
 }

@@ -34,6 +34,20 @@
         "desc": "Конец хода: Понижается на 1\nПока этот эффект активен, получает двойной урон от навыков. Границы выносливости повышаются вдвое больше при провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>.\nЭффект перестаёт действовать, если этот персонаж оглушён.\nЕсли персонаж не оглушён по истечению этого эффекта, получает 5 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышений урона</link></u></color> в начале следующего хода",
         "summary": "",
         "undefined": "-"
-      }
-    ]
+    },
+    {
+        "id": "AaCePbBe",
+        "name": "Vengeance",
+        "desc": "- Low Morale\n- Turn Start: Gain 1 Attack Power Up and 3 Defense Level Down. Gain Damage Up based on the amount of damage taken last turn (1 Damage Up for every 3% of Max HP lost)",
+        "summary": "Gain Damage Up based on total damage taken last turn.",
+        "undefined": "-"
+    },
+    {
+        "id": "AaCePbBf",
+        "name": "Vengeance",
+        "desc": "- Panic\n- Turn Start: Gain 2 Attack Power Up and 6 Defense Level Down. Gain Damage Up based on the amount of damage taken last turn\n(1 Damage Up for every 3% of Max HP lost)",
+        "summary": "Gain Damage Up based on total damage taken last turn.",
+        "undefined": "-"
+    }
+]
 }
